@@ -1,0 +1,612 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>平台超-自助超</title>
+		<link rel="stylesheet" type="text/css" href="css/reset.css" />
+		<link rel="stylesheet" type="text/css" href="css/swiper-3.4.0.min.css"/>
+		<link rel="stylesheet" type="text/css" href="css/style.css" />		
+		<link rel="stylesheet" href="css/newslist.css">
+		<link rel="stylesheet" type="text/css" href="css/main.css"/>
+		<script src="js/jquery.js"></script>
+		<script type="text/javascript" src="js/divselect.js"></script>
+		<script type="text/javascript" src="js/swiper-3.4.0.min.js"></script>
+		<script> 
+			$(function(){
+				$.divselect("#region","#btnregion");
+			});
+			$(function(){
+				$.divselect("#total","#btntotal");
+			});
+			$(function(){
+				$.divselect("#acreage","#btnacreage");
+			});
+			$(function(){
+				$.divselect("#housetype","#btnhousetype");
+			});						
+			$(function(){
+				$.divselect("#sort","#btnsort");
+			});
+		</script>
+	</head>
+	<body>
+		<div id="new_header">
+			<div class="container header_container">
+				<img src="images/newhome.png" alt="" />
+				<div class="header_right">
+					<a href="#">登录</a><span>|</span>
+					<a href="#">注册</a>
+				</div>
+				<ul class="header_nav">
+					<li>
+						<a href="#">首页</a>
+					</li>
+					<li>
+						<a class="active" href="#">平台超</a>
+					</li>
+					<li>
+						<a href="#">公共超</a>
+					</li>
+					<li>
+						<a href="#">财富超</a>
+					</li>
+					<li>
+						<a href="#">新闻岛</a>
+					</li>
+					<li>
+						<a href="#">数据岛</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="content">
+			<div class="container"> 
+				<ul class="content_hd">	
+					<li><a href="#">体验超</a></li>
+					<li><a class="active"  href="#">自助超</a></li>
+					<li><a href="#">屋超优品</a></li>
+					<li><a href="#">电子超</a></li>
+					<li><a href="#">直播导购</a></li>
+				</ul>
+			</div>			
+		</div>
+		<div class="selfHelp">			
+			<div class="self_content">
+				<div class="self_content_top">
+					<div class="self_search">
+						<input class="search-img" placeholder="请输入楼盘名称" type="text" pl>
+						<input class="search-btn" value="搜 索" type="submit">
+					</div>
+					<form action="" method="post">
+						<span class="conditions_txt">筛选条件：</span>
+						<div class="region">
+							<div id="region" class="select">
+								<span class="cite">区域</span>
+								<ul>
+									<li><a href="javascript:;" selectid="1">长安</a></li>
+									<li><a href="javascript:;" selectid="2">长安</a></li>
+									<li><a href="javascript:;" selectid="1">长安</a></li>
+									<li><a href="javascript:;" selectid="2">长安</a></li>
+									<li><a href="javascript:;" selectid="1">长安</a></li>
+									<li><a href="javascript:;" selectid="2">长安</a></li>
+									<li><a href="javascript:;" selectid="1">长安</a></li>
+									<li><a href="javascript:;" selectid="2">长安</a></li>
+									<li><a href="javascript:;" selectid="1">长安</a></li>
+									<li><a href="javascript:;" selectid="2">长安</a></li>
+								</ul>
+							</div>
+							<input name="" type="hidden" value="" id="btnregion"/>	
+						</div>
+						<div class="total">
+							<div id="total" class="select">
+								<span class="cite">总价</span>
+								<ul>
+									<li><a href="javascript:;" selectid="1">男</a></li>
+									<li><a href="javascript:;" selectid="2">女</a></li>
+								</ul>
+							</div>
+							<input name="" type="hidden" value="" id="btntotal"/>	
+						</div>
+						<div class="acreage">
+							<div id="acreage" class="select">
+								<span class="cite">面积</span>
+								<ul>
+									<li><a href="javascript:;" selectid="1">男</a></li>
+									<li><a href="javascript:;" selectid="2">女</a></li>
+								</ul>
+							</div>
+							<input name="" type="hidden" value="" id="btnacreage"/>	
+						</div>
+						<div class="housetype">
+							<div id="housetype" class="select">
+								<span class="cite">户型</span>
+								<ul>
+									<li><a href="javascript:;" selectid="1">男</a></li>
+									<li><a href="javascript:;" selectid="2">女</a></li>
+								</ul>
+							</div>
+							<input name="" type="hidden" value="" id="btnhousetype"/>	
+						</div>
+						<div class="sort">
+							<div id="sort" class="select">
+								<span class="cite">默认排序</span>
+								<ul>
+									<li><a href="javascript:;" selectid="1">按总价从低到高</a></li>
+									<li><a href="javascript:;" selectid="2">女</a></li>
+								</ul>
+							</div>
+							<input name="" type="hidden" value="" id="btnsort"/>	
+						</div>
+					</form>
+				</div>
+				<div class="self_content_bt">
+					<div class="self_content_item">
+						<ul>
+						<li>
+							<a href="#">
+								<div class="self_face">
+									<img src="images/ex_list.png" alt="">
+									<p class="self_face_sign">阳光海岸悦湾<span class="self_fr"><span class="self_num">128</span>万元</span></p>
+								</div>
+								<div class="self_con" >
+									<p class="self_title">阳光海岸悦湾</p>
+									<p>户型：三房一厅</p>
+									<p>楼层：6F/18F</p>
+									<p>面积：110m</p>
+									<p><span class="self_con_num">128</span>万元</p>
+								</div>
+							</a>							
+						</li>
+						<li>
+							<a href="#">
+								<div class="self_face">
+									<img src="images/ex_list.png" alt="">
+									<p class="self_face_sign">阳光海岸悦湾<span class="self_fr"><span class="self_num">128</span>万元</span></p>
+								</div>
+								<div class="self_con" >
+									<p class="self_title">阳光海岸悦湾</p>
+									<p>户型：三房一厅</p>
+									<p>楼层：6F/18F</p>
+									<p>面积：110m</p>
+									<p><span class="self_con_num">128</span>万元</p>
+								</div>
+							</a>							
+						</li>
+						<li>
+							<a href="#">
+								<div class="self_face">
+									<img src="images/ex_list.png" alt="">
+									<p class="self_face_sign">阳光海岸悦湾<span class="self_fr"><span class="self_num">128</span>万元</span></p>
+								</div>
+								<div class="self_con" >
+									<p class="self_title">阳光海岸悦湾</p>
+									<p>户型：三房一厅</p>
+									<p>楼层：6F/18F</p>
+									<p>面积：110m</p>
+									<p><span class="self_con_num">128</span>万元</p>
+								</div>
+							</a>							
+						</li>
+						<li>
+							<a href="#">
+								<div class="self_face">
+									<img src="images/ex_list.png" alt="">
+									<p class="self_face_sign">阳光海岸悦湾<span class="self_fr"><span class="self_num">128</span>万元</span></p>
+								</div>
+								<div class="self_con" >
+									<p class="self_title">阳光海岸悦湾</p>
+									<p>户型：三房一厅</p>
+									<p>楼层：6F/18F</p>
+									<p>面积：110m</p>
+									<p><span class="self_con_num">128</span>万元</p>
+								</div>
+							</a>							
+						</li>
+						<li>
+							<a href="#">
+								<div class="self_face">
+									<img src="images/ex_list.png" alt="">
+									<p class="self_face_sign">阳光海岸悦湾<span class="self_fr"><span class="self_num">128</span>万元</span></p>
+								</div>
+								<div class="self_con" >
+									<p class="self_title">阳光海岸悦湾</p>
+									<p>户型：三房一厅</p>
+									<p>楼层：6F/18F</p>
+									<p>面积：110m</p>
+									<p><span class="self_con_num">128</span>万元</p>
+								</div>
+							</a>							
+						</li>
+						<li>
+							<a href="#">
+								<div class="self_face">
+									<img src="images/ex_list.png" alt="">
+									<p class="self_face_sign">阳光海岸悦湾<span class="self_fr"><span class="self_num">128</span>万元</span></p>
+								</div>
+								<div class="self_con" >
+									<p class="self_title">阳光海岸悦湾</p>
+									<p>户型：三房一厅</p>
+									<p>楼层：6F/18F</p>
+									<p>面积：110m</p>
+									<p><span class="self_con_num">128</span>万元</p>
+								</div>
+							</a>							
+						</li>
+						<li>
+							<a href="#">
+								<div class="self_face">
+									<img src="images/ex_list.png" alt="">
+									<p class="self_face_sign">阳光海岸悦湾<span class="self_fr"><span class="self_num">128</span>万元</span></p>
+								</div>
+								<div class="self_con" >
+									<p class="self_title">阳光海岸悦湾</p>
+									<p>户型：三房一厅</p>
+									<p>楼层：6F/18F</p>
+									<p>面积：110m</p>
+									<p><span class="self_con_num">128</span>万元</p>
+								</div>
+							</a>							
+						</li>
+						<li>
+							<a href="#">
+								<div class="self_face">
+									<img src="images/ex_list.png" alt="">
+									<p class="self_face_sign">阳光海岸悦湾<span class="self_fr"><span class="self_num">128</span>万元</span></p>
+								</div>
+								<div class="self_con" >
+									<p class="self_title">阳光海岸悦湾</p>
+									<p>户型：三房一厅</p>
+									<p>楼层：6F/18F</p>
+									<p>面积：110m</p>
+									<p><span class="self_con_num">128</span>万元</p>
+								</div>
+							</a>							
+						</li>
+						<li>
+							<a href="#">
+								<div class="self_face">
+									<img src="images/ex_list.png" alt="">
+									<p class="self_face_sign">阳光海岸悦湾<span class="self_fr"><span class="self_num">128</span>万元</span></p>
+								</div>
+								<div class="self_con" >
+									<p class="self_title">阳光海岸悦湾</p>
+									<p>户型：三房一厅</p>
+									<p>楼层：6F/18F</p>
+									<p>面积：110m</p>
+									<p><span class="self_con_num">128</span>万元</p>
+								</div>
+							</a>							
+						</li>
+						<li>
+							<a href="#">
+								<div class="self_face">
+									<img src="images/ex_list.png" alt="">
+									<p class="self_face_sign">阳光海岸悦湾<span class="self_fr"><span class="self_num">128</span>万元</span></p>
+								</div>
+								<div class="self_con" >
+									<p class="self_title">阳光海岸悦湾</p>
+									<p>户型：三房一厅</p>
+									<p>楼层：6F/18F</p>
+									<p>面积：110m</p>
+									<p><span class="self_con_num">128</span>万元</p>
+								</div>
+							</a>							
+						</li>
+						<li>
+							<a href="#">
+								<div class="self_face">
+									<img src="images/ex_list.png" alt="">
+									<p class="self_face_sign">阳光海岸悦湾<span class="self_fr"><span class="self_num">128</span>万元</span></p>
+								</div>
+								<div class="self_con" >
+									<p class="self_title">阳光海岸悦湾</p>
+									<p>户型：三房一厅</p>
+									<p>楼层：6F/18F</p>
+									<p>面积：110m</p>
+									<p><span class="self_con_num">128</span>万元</p>
+								</div>
+							</a>							
+						</li>
+						<li>
+							<a href="#">
+								<div class="self_face">
+									<img src="images/ex_list.png" alt="">
+									<p class="self_face_sign">阳光海岸悦湾<span class="self_fr"><span class="self_num">128</span>万元</span></p>
+								</div>
+								<div class="self_con" >
+									<p class="self_title">阳光海岸悦湾</p>
+									<p>户型：三房一厅</p>
+									<p>楼层：6F/18F</p>
+									<p>面积：110m</p>
+									<p><span class="self_con_num">128</span>万元</p>
+								</div>
+							</a>							
+						</li>
+						<li>
+							<a href="#">
+								<div class="self_face">
+									<img src="images/ex_list.png" alt="">
+									<p class="self_face_sign">阳光海岸悦湾<span class="self_fr"><span class="self_num">128</span>万元</span></p>
+								</div>
+								<div class="self_con" >
+									<p class="self_title">阳光海岸悦湾</p>
+									<p>户型：三房一厅</p>
+									<p>楼层：6F/18F</p>
+									<p>面积：110m</p>
+									<p><span class="self_con_num">128</span>万元</p>
+								</div>
+							</a>							
+						</li>
+						<li>
+							<a href="#">
+								<div class="self_face">
+									<img src="images/ex_list.png" alt="">
+									<p class="self_face_sign">阳光海岸悦湾<span class="self_fr"><span class="self_num">128</span>万元</span></p>
+								</div>
+								<div class="self_con" >
+									<p class="self_title">阳光海岸悦湾</p>
+									<p>户型：三房一厅</p>
+									<p>楼层：6F/18F</p>
+									<p>面积：110m</p>
+									<p><span class="self_con_num">128</span>万元</p>
+								</div>
+							</a>							
+						</li>
+						<li>
+							<a href="#">
+								<div class="self_face">
+									<img src="images/ex_list.png" alt="">
+									<p class="self_face_sign">阳光海岸悦湾<span class="self_fr"><span class="self_num">128</span>万元</span></p>
+								</div>
+								<div class="self_con" >
+									<p class="self_title">阳光海岸悦湾</p>
+									<p>户型：三房一厅</p>
+									<p>楼层：6F/18F</p>
+									<p>面积：110m</p>
+									<p><span class="self_con_num">128</span>万元</p>
+								</div>
+							</a>							
+						</li>
+						<li>
+							<a href="#">
+								<div class="self_face">
+									<img src="images/ex_list.png" alt="">
+									<p class="self_face_sign">阳光海岸悦湾<span class="self_fr"><span class="self_num">128</span>万元</span></p>
+								</div>
+								<div class="self_con" >
+									<p class="self_title">阳光海岸悦湾</p>
+									<p>户型：三房一厅</p>
+									<p>楼层：6F/18F</p>
+									<p>面积：110m</p>
+									<p><span class="self_con_num">128</span>万元</p>
+								</div>
+							</a>							
+						</li>
+						<li>
+							<a href="#">
+								<div class="self_face">
+									<img src="images/ex_list.png" alt="">
+									<p class="self_face_sign">阳光海岸悦湾<span class="self_fr"><span class="self_num">128</span>万元</span></p>
+								</div>
+								<div class="self_con" >
+									<p class="self_title">阳光海岸悦湾</p>
+									<p>户型：三房一厅</p>
+									<p>楼层：6F/18F</p>
+									<p>面积：110m</p>
+									<p><span class="self_con_num">128</span>万元</p>
+								</div>
+							</a>							
+						</li>
+						<li>
+							<a href="#">
+								<div class="self_face">
+									<img src="images/ex_list.png" alt="">
+									<p class="self_face_sign">阳光海岸悦湾<span class="self_fr"><span class="self_num">128</span>万元</span></p>
+								</div>
+								<div class="self_con" >
+									<p class="self_title">阳光海岸悦湾</p>
+									<p>户型：三房一厅</p>
+									<p>楼层：6F/18F</p>
+									<p>面积：110m</p>
+									<p><span class="self_con_num">128</span>万元</p>
+								</div>
+							</a>							
+						</li>
+						<li>
+							<a href="#">
+								<div class="self_face">
+									<img src="images/ex_list.png" alt="">
+									<p class="self_face_sign">阳光海岸悦湾<span class="self_fr"><span class="self_num">128</span>万元</span></p>
+								</div>
+								<div class="self_con" >
+									<p class="self_title">阳光海岸悦湾</p>
+									<p>户型：三房一厅</p>
+									<p>楼层：6F/18F</p>
+									<p>面积：110m</p>
+									<p><span class="self_con_num">128</span>万元</p>
+								</div>
+							</a>							
+						</li>
+						<li>
+							<a href="#">
+								<div class="self_face">
+									<img src="images/ex_list.png" alt="">
+									<p class="self_face_sign">阳光海岸悦湾<span class="self_fr"><span class="self_num">128</span>万元</span></p>
+								</div>
+								<div class="self_con" >
+									<p class="self_title">阳光海岸悦湾</p>
+									<p>户型：三房一厅</p>
+									<p>楼层：6F/18F</p>
+									<p>面积：110m</p>
+									<p><span class="self_con_num">128</span>万元</p>
+								</div>
+							</a>							
+						</li>
+						<li>
+							<a href="#">
+								<div class="self_face">
+									<img src="images/ex_list.png" alt="">
+									<p class="self_face_sign">阳光海岸悦湾<span class="self_fr"><span class="self_num">128</span>万元</span></p>
+								</div>
+								<div class="self_con" >
+									<p class="self_title">阳光海岸悦湾</p>
+									<p>户型：三房一厅</p>
+									<p>楼层：6F/18F</p>
+									<p>面积：110m</p>
+									<p><span class="self_con_num">128</span>万元</p>
+								</div>
+							</a>							
+						</li>
+					</ul>
+					</div>					
+				</div>
+			</div>
+		</div>
+		<div class="swiper_animate">
+				<div class="swiper-container swiper1">
+					<div class="swiper-wrapper">
+						<div class="swiper-slide">
+							<ul class="swiper_nav">
+								<li>
+									<a href="#">
+										<div class="face">
+											<img src="images/sd.png">
+										</div>
+										<div class="no-face">
+											<p class="face_title"><span class="tstL">碧桂圆指挥家碧桂圆指挥家</span><span class="tstR">16500元/m2</span> </p>
+											<p class="face_txt mt30">区域：常平火车站</p>
+											<p class="face_txt face_door">主推户型：1房1厅[45m2]，2强21321321</p>
+											<p class="face_bt mt20">地铁沿线/生态宜居/景观居所</p>
+										</div>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<div class="face">
+											<img src="images/sd.png">
+										</div>
+										<div class="no-face">
+											<p class="face_title"><span class="tstL">碧桂圆指挥家碧桂圆指挥家</span><span class="tstR">16500元/m2</span> </p>
+											<p class="face_txt mt30">区域：常平火车站</p>
+											<p class="face_txt face_door">主推户型：1房1厅[45m2]，2强21321321</p>
+											<p class="face_bt mt20">地铁沿线/生态宜居/景观居所</p>
+										</div>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<div class="face">
+											<img src="images/sd.png">
+										</div>
+										<div class="no-face">
+											<p class="face_title"><span class="tstL">碧桂圆指挥家碧桂圆指挥家</span><span class="tstR">16500元/m2</span> </p>
+											<p class="face_txt mt30">区域：常平火车站</p>
+											<p class="face_txt face_door">主推户型：1房1厅[45m2]，2强21321321</p>
+											<p class="face_bt mt20">地铁沿线/生态宜居/景观居所</p>
+										</div>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<div class="face">
+											<img src="images/sd.png">
+										</div>
+										<div class="no-face">
+											<p class="face_title"><span class="tstL">碧桂圆指挥家碧桂圆指挥家</span><span class="tstR">16500元/m2</span> </p>
+											<p class="face_txt mt30">区域：常平火车站</p>
+											<p class="face_txt face_door">主推户型：1房1厅[45m2]，2强21321321</p>
+											<p class="face_bt mt20">地铁沿线/生态宜居/景观居所</p>
+										</div>
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				
+				</div>
+					<div class="swiper-button-next swiper-button-black"></div>
+					<div class="swiper-button-prev swiper-button-black"></div>
+		</div>
+		<div id="new_footer">
+			<div class="container">
+				<div class="footer_left fl">
+					<div class="footer_top">
+						<img class='fl' src="images/newhome.png" alt="" />
+						<div class="fl ml20">
+							<p class="friendship_link">
+								<a href="#">关于我们</a>
+								<span>|</span>
+								<a href="#">人才招聘</a>
+								<span>|</span>
+								<a href="#">联系我们</a>
+								<span>|</span>
+								<a href="#">用户协议</a>
+								<span>|</span>
+								<a href="#">友情链接</a>
+								<span>|</span>
+								<a href="#">网站地图</a>
+							</p>
+							<p class="phonenum">
+								客服热线：<span>400-800-8820</span>（工作时间：9：00-21：00）
+							</p>
+						</div>
+					</div>
+					<p class="address">版权所有 ©深圳市城市屋超科技有限公司 copyright ©2016 apyfc.com All Rights Rights Reserved 备案号:粤ICP备16079781号</p>
+				</div>
+				<div class="footer_right">
+					<div class="tc fl">
+						<img src="images/wxCode.png" alt="" />
+						<p>关注优房超微信号</p>
+					</div>
+					<div class="tc ml30 fl">
+						<img src="images/appCode.png" alt="" />
+						<p>下载优房超APP</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+	<script type="text/javascript">
+		$(".experience_hd li").click(function(){
+			$(".experience_top").show();
+			var index=$(this).index();
+			$(this).addClass("active").siblings().removeClass("active");
+			$(".experience_bd .experience_bd_list").eq(index).show().siblings(".experience_bd_list").hide();
+		});
+		new Swiper('.swiper1', {
+			nextButton: '.swiper-button-next',
+			prevButton: '.swiper-button-prev',
+			loop:true,
+			simulateTouch : false,
+		});
+		new Swiper('.menu', {
+			pagination : '.swiper-pagination',
+			paginationClickable :true,
+			observer:true,
+			observeParents:true,
+		});
+		new Swiper('.menu1', {
+			pagination : '.swiper-pagination',
+			paginationClickable :true,
+			observer:true,
+			observeParents:true,
+		});
+		new Swiper('.menu2', {
+			pagination : '.swiper-pagination',
+			paginationClickable :true,
+			observer:true,
+			observeParents:true,
+		});
+		$(".container  .space").mouseover(function(){
+			var tarLight=$(this).attr("id");
+			$('.'+tarLight).show();
+		});
+		$(".container .space").mouseout(function(){
+			var tarLight=$(this).attr("id");
+			$('.'+tarLight).hide();
+		});
+		$(".swiper_close").click(function(){
+			$(".experience_top").hide();
+		})
+	</script>
+</html>
