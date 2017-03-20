@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>计算器</title>
+    <link rel="stylesheet" type="text/css" href="css/reset.css"/>
+    <link rel="stylesheet" type="text/css" href="css/style.css"/>
+    <link rel="stylesheet" href="http://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/calc.css">
+    <script type="text/javascript" src="js/jquery.js"></script>
+</head>
+<body>
+<div id="new_header">
+    <div class="container header_container">
+        <img src="images/newhome.png" alt=""/>
+        <div class="header_right"><a href="#">登录</a><span>|</span><a href="#">注册</a></div>
+        <ul class="header_nav">
+            <li><a href="#">首页</a></li>
+            <li><a href="#">平台超</a></li>
+            <li><a href="#">公共超</a></li>
+            <li><a href="#">财富超</a></li>
+            <li><a href="#">新闻岛</a></li>
+            <li><a class="active" href="#">数据岛</a></li>
+        </ul>
+    </div>
+</div>
+<div id="pop_calc">
+    <div class="calc_content container">
+        <div class="calc_left">
+            <p class="f26">房贷计算器</p>
+            <form action="">
+                <dl class="total-price">
+                    <dt>房屋总价：</dt>
+                    <dd><input type="text"></dd>
+                </dl>
+                <dl class="credit-type">
+                    <dt>贷款类型：</dt>
+                    <dd>
+                        <div class="select-style cf">
+                            <select name="" id="" data-width="297">
+                                <option value="0">商业贷款</option>
+                                <option value="1">公积金贷款</option>
+                                <option value="2">混合贷</option>
+                            </select>
+                        </div>
+                    </dd>
+                </dl>
+                <dl class="credit-percent">
+                    <dt>贷款成数：</dt>
+                    <dd>
+                        <div class="select-style cf">
+                            <select name="" id="" data-width="297">
+                                <option value="0">7成</option>
+                                <option value="1">8成</option>
+                            </select>
+                        </div>
+                    </dd>
+                </dl>
+                <dl class="credit-limit">
+                    <dt>贷款年限：</dt>
+                    <dd>
+                        <div class="select-style cf">
+                            <select name="" id="" data-width="297">
+                                <option value="0">10年</option>
+                                <option value="1">20年</option>
+                            </select>
+                        </div>
+                    </dd>
+                </dl>
+                <dl class="credit-rate business">
+                    <dt>商业贷利率：</dt>
+                    <dd>
+                        <div class="select-style cf">
+                            <select name="" id="" data-width="177">
+                                <option value="0">基准利率</option>
+                                <option value="1">其他</option>
+                            </select>
+                            <input type="text" class="fl">
+                            <i class="fa fa-question-circle"></i>
+                        </div>
+                    </dd>
+                </dl>
+                <dl class="credit-rate fund" style="display:none;">
+                    <dt>公积金利率：</dt>
+                    <dd>
+                        <div class="select-style cf">
+                            <select name="" id="" data-width="177">
+                                <option value="0">基准利率</option>
+                                <option value="1">其他</option>
+                            </select>
+                            <input type="text" class="fl">
+                            <i class="fa fa-question-circle"></i>
+                        </div>
+                    </dd>
+                </dl>
+                <dl class="business-credit" style="display:none;">
+                    <dt>商业性贷款：</dt>
+                    <dd><input type="text"></dd>
+                </dl>
+                <dl class="fund-credit" style="display:none;">
+                    <dt>公积金贷款：</dt>
+                    <dd><input type="text"></dd>
+                </dl>
+                <input type="submit" value="开始计算">
+            </form>
+        </div>
+        <div class="calc_right">
+            <dl class="tab-click tc cf f16">
+                <dt data-tab="calc_1" class="fl curr">等额本息还款&nbsp;<i class="fa fa-question-circle"></i></dt>
+                <dt data-tab="calc_2" class="fl">等额本金还款&nbsp;<i class="fa fa-question-circle"></i></dt>
+            </dl>
+            <ul class="cf">
+                <li id="calc_1" class="tc tab-con curr">
+                    <div class="img">
+                        <img src="images/calc.png" alt="">
+                        <p>要贷款买房？赶紧算算吧！</p>
+                    </div>
+                    <div class="calc_equal_credit calc" style="display:none;">
+                        <dl class="month_preice">
+                            <dt class="fl tl">月供</dt>
+                            <dd class="fl tr">5784.92 元</dd>
+                        </dl>
+                        <dl class="month_total">
+                            <dt class="fl tl">还款月数</dt>
+                            <dd class="fl tr">240 月</dd>
+                        </dl>
+                        <dl class="total-credit">
+                            <dt class="fl tl">总利息</dt>
+                            <dd class="fl tr">992571.65 元</dd>
+                        </dl>
+                        <dl class="total-money">
+                            <dt class="fl tl">本息合计</dt>
+                            <dd class="fl tr">2082571.65 元</dd>
+                        </dl>
+                    </div>
+                </li>
+                <li id="calc_2" class="tab-con tc">
+                    <div class="img">
+                        <img src="images/calc.png" alt="">
+                        <p>要贷款买房？赶紧算算吧！</p>
+                    </div>
+                    <div class="calc_equal_money calc" style="display:none;">
+                        <dl class="month_preice">
+                            <dt class="fl tl">月供</dt>
+                            <dd class="fl tr">5784.92 元</dd>
+                        </dl>
+                        <dl class="month_preice">
+                            <dd class="fl tr" style="width: 100%;">首月后每月递减<span>12.36</span>元</dd>
+                        </dl>
+                        <dl class="month_total">
+                            <dt class="fl tl">还款月数</dt>
+                            <dd class="fl tr">240 月</dd>
+                        </dl>
+                        <dl class="total-credit">
+                            <dt class="fl tl">总利息</dt>
+                            <dd class="fl tr">992571.65 元</dd>
+                        </dl>
+                        <dl class="total-money">
+                            <dt class="fl tl">本息合计</dt>
+                            <dd class="fl tr">2082571.65 元</dd>
+                        </dl>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+<div id="new_footer">
+    <div class="container">
+        <div class="footer_left fl">
+            <div class="footer_top">
+                <img class='fl' src="images/newhome.png" alt=""/>
+                <div class="fl ml20">
+                    <p class="friendship_link">
+                        <a href="#">关于我们</a>
+                        <span>|</span>
+                        <a href="#">人才招聘</a>
+                        <span>|</span>
+                        <a href="#">联系我们</a>
+                        <span>|</span>
+                        <a href="#">用户协议</a>
+                        <span>|</span>
+                        <a href="#">友情链接</a>
+                        <span>|</span>
+                        <a href="#">网站地图</a>
+                    </p>
+                    <p class="phonenum">
+                        客服热线：<span>400-800-8820</span>（工作时间：9：00-21：00）
+                    </p>
+                </div>
+            </div>
+            <p class="address">版权所有 ©深圳市城市屋超科技有限公司 copyright ©2016 apyfc.com All Rights Rights Reserved 备案号:粤ICP备16079781号</p>
+        </div>
+        <div class="footer_right">
+            <div class="tc fl">
+                <img src="images/wxCode.png" alt=""/>
+                <p>关注优房超微信号</p>
+            </div>
+            <div class="tc ml30 fl">
+                <img src="images/appCode.png" alt=""/>
+                <p>下载优房超APP</p>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="js/common.js"></script>
+<script type="text/javascript">
+    $(".credit-percent select").selectStyle(100);
+    $(".credit-type select").selectStyle(100);
+    $(".credit-limit select").selectStyle(100);
+    $(".credit-rate select").selectStyle(100);
+    $(".credit-type .tag-options").click(function () {
+        console.log($(".credit-type .tag-select").text());
+        var txt = $(".credit-type .tag-select").text();
+        switch (txt) {
+            case '商业贷款':
+                $(".business-credit").hide();
+                $('.fund-credit').hide();
+                $(".fund").hide();
+                $('.business').show();
+                $(".credit-percent").show();
+                break;
+            case '公积金贷款':
+                $(".business-credit").hide();
+                $('.fund-credit').hide();
+                $(".fund").show();
+                $('.business').hide();
+                $(".credit-percent").show();
+                break;
+            case '混合贷':
+                $(".business-credit").show();
+                $('.fund-credit').show();
+                $(".fund").show();
+                $('.business').show();
+                $(".credit-percent").hide();
+                break;
+        }
+    });
+    $(".calc_right img").click(function () {
+        $(this).parent().hide().next().show();
+    })
+</script>
+</body>
+</html>

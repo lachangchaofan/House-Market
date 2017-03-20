@@ -1,0 +1,781 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="css/reset.css"/>
+    <link rel="stylesheet" type="text/css" href="css/style.css"/>
+    <link rel="stylesheet" href="http://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/newslist.css"/>
+    <link rel="stylesheet" type="text/css" href="css/new_house.css">
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script>
+        $(document).ready(function () {
+            $(".news_info").each(function () {
+                var maxwidth = 60;
+                if ($(this).text().length > maxwidth) {
+                    $(this).text($(this).text().substring(0 , maxwidth));
+                    $(this).html($(this).html() + '...');
+                }
+            });
+        });
+    </script>
+</head>
+<body>
+<div id="new_header">
+    <div class="container header_container">
+        <img src="images/newhome.png" alt=""/>
+        <div class="header_right"><a href="#">登录</a><span>|</span><a href="#">注册</a></div>
+        <ul class="header_nav">
+            <li><a href="#">首页</a></li>
+            <li><a class="active" href="#">平台超</a></li>
+            <li><a href="#">公共超</a></li>
+            <li><a href="#">财富超</a></li>
+            <li><a href="#">新闻岛</a></li>
+            <li><a href="#">数据岛</a></li>
+        </ul>
+    </div>
+</div>
+<!--楼房列表-->
+<div class="content new_house_content">
+    <div class="container">
+        <div class="new_house_header">
+            <div class="sign">
+                <img src="images/zhldc.jpg" alt="">
+            </div>
+            <div class="signs cf">
+                <dl class="fl cf">
+                    <dt class="fl icon1"></dt>
+                    <dd class="fl">工商执照</dd>
+                </dl>
+                <dl class="fl cf">
+                    <dt class="fl icon2"></dt>
+                    <dd class="fl">名片认证</dd>
+                </dl>
+                <dl class="fl cf">
+                    <dt class="fl icon3"></dt>
+                    <dd class="fl">企业认证</dd>
+                </dl>
+                <dl class="fl cf">
+                    <dt class="fl icon4"></dt>
+                    <dd class="fl">扫描我的二维码 在手机上关注店铺动态</dd>
+                </dl>
+            </div>
+        </div>
+    </div>
+    <hr style="height: 20px;background-color: #333;width: 100%;margin-top: 10px;margin-bottom: -1px;">
+    <div class="container" style="margin-bottom: 40px;">
+        <img src="images/banner.jpg" alt="">
+    </div>
+    <div class="house_recommend">
+        <dl class="tab-click tc cf f16">
+            <dt data-tab="calc_1" class="fl">新 房</dt>
+            <dt data-tab="calc_2" class="fl curr">二手房</dt>
+            <dd class="fr">优惠上新</dd>
+        </dl>
+        <ul id="calc_1" class="tc tab-con">
+            <li class="new_house_show">
+                <div class="house_pic"><img src="images/house_pic.jpg"></div>
+                <div class="house_information">
+                    <p><span class="house_name">中信红树山</span>　 110m² 　<span class="money">450</span>万<br><span
+                            class="intor">东城精装小两房50万急售</span></p>
+                </div>
+            </li>
+            <li class="new_house_show">
+                <div class="house_pic"><img src="images/house_pic.jpg"></div>
+                <div class="house_information">
+                    <p><span class="house_name">中信红树山</span>　 110m² 　<span class="money">450</span>万<br><span
+                            class="intor">东城精装小两房50万急售</span></p>
+                </div>
+            </li>
+            <li class="new_house_show">
+                <div class="house_pic"><img src="images/house_pic.jpg"></div>
+                <div class="house_information">
+                    <p><span class="house_name">中信红树山</span>　 110m² 　<span class="money">450</span>万<br><span
+                            class="intor">东城精装小两房50万急售</span></p>
+                </div>
+            </li>
+            <li class="new_house_show">
+                <div class="house_pic"><img src="images/house_pic.jpg"></div>
+                <div class="house_information">
+                    <p><span class="house_name">中信红树山</span>　 110m² 　<span class="money">450</span>万<br><span
+                            class="intor">东城精装小两房50万急售</span></p>
+                </div>
+            </li>
+            <li class="new_house_show">
+                <div class="house_pic"><img src="images/house_pic.jpg"></div>
+                <div class="house_information">
+                    <p><span class="house_name">中信红树山</span>　 110m² 　<span class="money">450</span>万<br><span
+                            class="intor">东城精装小两房50万急售</span></p>
+                </div>
+            </li>
+        </ul>
+        <ul id="calc_2" class="tc tab-con curr">
+            <li class="new_house_show">
+                <div class="house_pic"><img src="images/house_pic.jpg"></div>
+                <div class="house_information">
+                    <p><span class="house_name">中信红树山</span>　 110m² 　<span class="money">450</span>万<br><span
+                            class="intor">东城精装小两房50万急售</span></p>
+                </div>
+            </li>
+            <li class="new_house_show">
+                <div class="house_pic"><img src="images/house_pic.jpg"></div>
+                <div class="house_information">
+                    <p><span class="house_name">中信红树山</span>　 110m² 　<span class="money">450</span>万<br><span
+                            class="intor">东城精装小两房50万急售</span></p>
+                </div>
+            </li>
+            <li class="new_house_show">
+                <div class="house_pic"><img src="images/house_pic.jpg"></div>
+                <div class="house_information">
+                    <p><span class="house_name">中信红树山</span>　 110m² 　<span class="money">450</span>万<br><span
+                            class="intor">东城精装小两房50万急售</span></p>
+                </div>
+            </li>
+            <li class="new_house_show">
+                <div class="house_pic"><img src="images/house_pic.jpg"></div>
+                <div class="house_information">
+                    <p><span class="house_name">中信红树山</span>　 110m² 　<span class="money">450</span>万<br><span
+                            class="intor">东城精装小两房50万急售</span></p>
+                </div>
+            </li>
+            <li class="new_house_show">
+                <div class="house_pic"><img src="images/house_pic.jpg"></div>
+                <div class="house_information">
+                    <p><span class="house_name">中信红树山</span>　 110m² 　<span class="money">450</span>万<br><span
+                            class="intor">东城精装小两房50万急售</span></p>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <div class="area_title container">
+        <dl class="tab-click tc cf f16">
+            <dt data-tab="calc_3" class="fl">新 房</dt>
+            <dt data-tab="calc_4" class="fl curr">二手房</dt>
+            <dd class="fr cf">
+                <i class="fa fa-search" aria-hidden="true"></i><input class="fl" type="text" placeholder="输入楼盘名称"><input type="submit" class="submit fl" value="搜本店">
+            </dd>
+        </dl>
+    </div>
+    <div id="calc_3" class="tab-con area new_house">
+        <li>
+            <div class="characteristics-box clearfix">
+                <span class="characteristics-title fl">搜索条件：</span>
+                <div class="characteristics-con clearfix">
+                    <select class="select">
+                        <option>区域</option>
+                        <option>区域</option>
+                        <option>区域</option>
+                        <option>区域</option>
+                    </select>
+                    <select class="select">
+                        <option>价格</option>
+                        <option>价格</option>
+                        <option>价格</option>
+                        <option>价格</option>
+                    </select>
+                    <select class="select">
+                        <option>面积</option>
+                        <option>面积</option>
+                        <option>面积</option>
+                        <option>面积</option>
+                    </select>
+                    <select class="select">
+                        <option>房型</option>
+                        <option>房型</option>
+                        <option>房型</option>
+                        <option>房型</option>
+                    </select>
+                    <select class="select">
+                        <option>类型</option>
+                        <option>类型</option>
+                        <option>类型</option>
+                        <option>类型</option>
+                    </select>
+                    <select class="select">
+                        <option>特色</option>
+                        <option>特色</option>
+                        <option>特色</option>
+                        <option>特色</option>
+                    </select>
+                    <select class="select">
+                        <option>朝向</option>
+                        <option>朝向</option>
+                        <option>朝向</option>
+                        <option>朝向</option>
+                    </select>
+                    <select class="select">
+                        <option>装修</option>
+                        <option>装修</option>
+                        <option>装修</option>
+                        <option>装修</option>
+                    </select>
+                    <select class="select">
+                        <option>房龄</option>
+                        <option>房龄</option>
+                        <option>房龄</option>
+                        <option>房龄</option>
+                    </select>
+                    <select class="select">
+                        <option>楼层</option>
+                        <option>楼层</option>
+                        <option>楼层</option>
+                        <option>楼层</option>
+                    </select>
+                    <span class="select_more">更多<i class="fa fa-angle-down" aria-hidden="true"></i></span>
+                </div>
+            </div>
+        </li>
+        <!-- End 房型条件  -->
+        <!-- 配置 -->
+        <!-- end 配置 -->
+        <!-- 标签 -->
+        <li>
+            <div class="characteristics-box clearfix">
+                <span class="characteristics-title fl"></span>
+                <div class="characteristics-con clearfix">
+                    <p class="check-item clearfix" id="labels">
+                        <label>
+                            <input type="checkbox"
+                                    onclick="qfang.module.frontend.room.realRoomIndex.selectedLabel();"
+                                    value="t27"/>
+                            <span>急售</span>
+                        </label>
+                        <label>
+                            <input type="checkbox"
+                                    onclick="qfang.module.frontend.room.realRoomIndex.selectedLabel();"
+                                    value="t26"/>
+                            <span>学区</span>
+                        </label>
+                        <label>
+                            <input type="checkbox"
+                                    onclick="qfang.module.frontend.room.realRoomIndex.selectedLabel();"
+                                    value="t31"/>
+                            <span>南北通透</span>
+                        </label>
+                        <label>
+                            <input type="checkbox"
+                                    onclick="qfang.module.frontend.room.realRoomIndex.selectedLabel();"
+                                    value="t11"/>
+                            <span>满五唯一</span>
+                        </label>
+                        <label>
+                            <input type="checkbox"
+                                    onclick="qfang.module.frontend.room.realRoomIndex.selectedLabel();"
+                                    value="t28"/>
+                            <span>满两年</span>
+                        </label>
+                        <label>
+                            <input type="checkbox"
+                                    onclick="qfang.module.frontend.room.realRoomIndex.selectedLabel();"
+                                    value="t30"/>
+                            <span>不限购</span>
+                        </label>
+                        <label>
+                            <input type="checkbox"
+                                    onclick="qfang.module.frontend.room.realRoomIndex.selectedLabel();"
+                                    value="t10"/>
+                            <span>复式</span>
+                        </label>
+                        <label>
+                            <span>有钥匙</span>
+                        </label>
+                        <label>
+                            <span>红本在手</span>
+                        </label>
+                    </p>
+                </div>
+            </div>
+        </li>
+        </ul>
+        <div class="present new_house">
+            <div class="locate_list">
+                <div class="reset"><img src="images/reset.jpg">
+                    <span><a href="#">删除全部</a></span>
+                </div>
+                <div class="wrong">
+                    <ul>
+                        <li><span>8千以下</span><img src="images/wrong.jpg" class="wrong_pic"></li>
+                        <li>二室<img src="images/false.jpg"></li>
+                        <li>地铁沿线<img src="images/false.jpg"></li>
+                        <li>茶山<img src="images/false.jpg"></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="locate"><span class="bg">当前条件：</span></div>
+        </div>
+    </div>
+    <div id="calc_4" class="tab-con curr area new_house">
+        <li>
+            <div class="characteristics-box clearfix">
+                <span class="characteristics-title fl">搜索条件：</span>
+                <div class="characteristics-con clearfix">
+                    <select class="select">
+                        <option>区域</option>
+                        <option>区域</option>
+                        <option>区域</option>
+                        <option>区域</option>
+                    </select>
+                    <select class="select">
+                        <option>价格</option>
+                        <option>价格</option>
+                        <option>价格</option>
+                        <option>价格</option>
+                    </select>
+                    <select class="select">
+                        <option>面积</option>
+                        <option>面积</option>
+                        <option>面积</option>
+                        <option>面积</option>
+                    </select>
+                    <select class="select">
+                        <option>房型</option>
+                        <option>房型</option>
+                        <option>房型</option>
+                        <option>房型</option>
+                    </select>
+                    <select class="select">
+                        <option>类型</option>
+                        <option>类型</option>
+                        <option>类型</option>
+                        <option>类型</option>
+                    </select>
+                    <select class="select">
+                        <option>特色</option>
+                        <option>特色</option>
+                        <option>特色</option>
+                        <option>特色</option>
+                    </select>
+                    <select class="select">
+                        <option>朝向</option>
+                        <option>朝向</option>
+                        <option>朝向</option>
+                        <option>朝向</option>
+                    </select>
+                    <select class="select">
+                        <option>装修</option>
+                        <option>装修</option>
+                        <option>装修</option>
+                        <option>装修</option>
+                    </select>
+                    <select class="select">
+                        <option>房龄</option>
+                        <option>房龄</option>
+                        <option>房龄</option>
+                        <option>房龄</option>
+                    </select>
+                    <select class="select">
+                        <option>楼层</option>
+                        <option>楼层</option>
+                        <option>楼层</option>
+                        <option>楼层</option>
+                    </select>
+                    <span class="select_more">更多<i class="fa fa-angle-down" aria-hidden="true"></i></span>
+                </div>
+            </div>
+        </li>
+        <!-- End 房型条件  -->
+        <!-- 配置 -->
+        <!-- end 配置 -->
+        <!-- 标签 -->
+        <li>
+            <div class="characteristics-box clearfix">
+                <span class="characteristics-title fl"></span>
+                <div class="characteristics-con clearfix">
+                    <p class="check-item clearfix" id="labels">
+                        <label>
+                            <span>急售</span>
+                        </label>
+                        <label>
+                            <span>学区</span>
+                        </label>
+                        <label>
+                            <span>南北通透</span>
+                        </label>
+                        <label>
+                            <span>满五唯一</span>
+                        </label>
+                        <label>
+                            <span>满两年</span>
+                        </label>
+                        <label>
+                            <span>不限购</span>
+                        </label>
+                        <label>
+                            <span>复式</span>
+                        </label>
+                        <label>
+                            <span>有钥匙</span>
+                        </label>
+                        <label>
+                            <span>红本在手</span>
+                        </label>
+                    </p>
+                </div>
+            </div>
+        </li>
+        </ul>
+        <div class="present new_house">
+            <div class="locate_list">
+                <div class="reset"><img src="images/reset.jpg">
+                    <span><a href="#">删除全部</a></span>
+                </div>
+                <div class="wrong">
+                    <ul>
+                        <li>8千以下<img src="images/false.jpg"></li>
+                        <li>二室<img src="images/false.jpg"></li>
+                        <li>地铁沿线<img src="images/false.jpg"></li>
+                        <li>茶山<img src="images/false.jpg"></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="locate"><span class="bg">当前条件：</span></div>
+        </div>
+    </div>
+    <div class="house_list">
+        <div class="house_center">
+            <div class="house_number"><p>共找到<span>177</span>套符合条件的二手房源</p></div>
+            <div class="house_small_title">
+                <ul>
+                    <li>排序：</li>
+                    <li><a class="curr" href="#">默认排序</a></li>
+                    <li><a href="#">单价<i class="fa fa-angle-down" aria-hidden="true"></i></a></li>
+                    <li><a href="#">总价<i class="fa fa-angle-down" aria-hidden="true"></i></a></li>
+                    <li><a href="#">面积<i class="fa fa-angle-down" aria-hidden="true"></i></a></li>
+                </ul>
+            </div>
+        </div>
+        <hr style="width:1200px; color:lightgray; margin:0 auto; border:solid 1px;">
+        <div class="house_list">
+            <div class="house_exp">
+                <div class="cycle-listings-item clearfix">
+                    <p class="pic-house fl">
+                        <a target="_blank" href="#">
+                            <img src="images/house_exp.jpg"/>
+                        </a>
+                    </p>
+                    <div class="listings-item-center fl">
+                        <div class="listings-item-title clearfix">
+                            <h3><a href="#">时尚装修3房，通透户型，领包入住精美温馨，精美绝伦</a></h3>
+                        </div>
+                        <div class="listings-item-characteristics clearfix">
+                            <span key="showKeyword">|115平方米|3室2厅|21143元/m²|低层(共26层)|2012年建造</span>
+                        </div>
+                        <div class="listings-item-address clearfix">
+                            <span>
+                                <a target="_blank" key="showKeyword" class="showKeyword" href="#">君诒花园-[南城-西平宏伟路7号]</a>
+                            </span>
+                        </div>
+                        <p class="house-author house-author-new"><span>中联地产-刚刚更新</span></p>
+                        <p class="goodness">
+                            <span class="goodness_location">地铁沿线</span><span class="goodness_num">不限购</span></p>
+                    </div>
+                    <div class="listings-item-right fr">
+                        <p class="listings-item-price"><span>148</span>万</p>
+                        <p class="onaverage-price">15000元/平米</p>
+                    </div>
+                </div>
+            </div>
+            <hr style="width:1200px; color:lightgray; margin:0 auto; border:solid 1px;">
+            <div class="house_exp">
+                <div class="cycle-listings-item clearfix">
+                    <p class="pic-house fl">
+                        <a target="_blank" href="#">
+                            <img src="images/house_exp.jpg"/>
+                        </a>
+                    </p>
+                    <div class="listings-item-center fl">
+                        <div class="listings-item-title clearfix">
+                            <h3><a href="#">时尚装修3房，通透户型，领包入住精美温馨，精美绝伦</a></h3>
+                        </div>
+                        <div class="listings-item-characteristics clearfix">
+                            <span key="showKeyword">|115平方米|3室2厅|21143元/m²|低层(共26层)|2012年建造</span>
+                        </div>
+                        <div class="listings-item-address clearfix">
+                            <span>
+                                <a target="_blank" key="showKeyword" class="showKeyword" href="#">君诒花园-[南城-西平宏伟路7号]</a>
+                            </span>
+                        </div>
+                        <p class="house-author house-author-new"><span>中联地产-刚刚更新</span></p>
+                        <p class="goodness">
+                            <span class="goodness_location">地铁沿线</span><span class="goodness_num">不限购</span></p>
+                    </div>
+                    <div class="listings-item-right fr">
+                        <p class="listings-item-price"><span>148</span>万</p>
+                        <p class="onaverage-price">15000元/平米</p>
+                    </div>
+                </div>
+            </div>
+            <hr style="width:1200px; color:lightgray; margin:0 auto; border:solid 1px;">
+            <div class="house_exp">
+                <div class="cycle-listings-item clearfix">
+                    <p class="pic-house fl">
+                        <a target="_blank" href="#">
+                            <img src="images/house_exp.jpg"/>
+                        </a>
+                    </p>
+                    <div class="listings-item-center fl">
+                        <div class="listings-item-title clearfix">
+                            <h3><a href="#">时尚装修3房，通透户型，领包入住精美温馨，精美绝伦</a></h3>
+                        </div>
+                        <div class="listings-item-characteristics clearfix">
+                            <span key="showKeyword">|115平方米|3室2厅|21143元/m²|低层(共26层)|2012年建造</span>
+                        </div>
+                        <div class="listings-item-address clearfix">
+                            <span>
+                                <a target="_blank" key="showKeyword" class="showKeyword" href="#">君诒花园-[南城-西平宏伟路7号]</a>
+                            </span>
+                        </div>
+                        <p class="house-author house-author-new"><span>中联地产-刚刚更新</span></p>
+                        <p class="goodness">
+                            <span class="goodness_location">地铁沿线</span><span class="goodness_num">不限购</span></p>
+                    </div>
+                    <div class="listings-item-right fr">
+                        <p class="listings-item-price"><span>148</span>万</p>
+                        <p class="onaverage-price">15000元/平米</p>
+                    </div>
+                </div>
+            </div>
+            <hr style="width:1200px; color:lightgray; margin:0 auto; border:solid 1px;">
+            <div class="house_exp">
+                <div class="cycle-listings-item clearfix">
+                    <p class="pic-house fl">
+                        <a target="_blank" href="#">
+                            <img src="images/house_exp.jpg"/>
+                        </a>
+                    </p>
+                    <div class="listings-item-center fl">
+                        <div class="listings-item-title clearfix">
+                            <h3><a href="#">时尚装修3房，通透户型，领包入住精美温馨，精美绝伦</a></h3>
+                        </div>
+                        <div class="listings-item-characteristics clearfix">
+                            <span key="showKeyword">|115平方米|3室2厅|21143元/m²|低层(共26层)|2012年建造</span>
+                        </div>
+                        <div class="listings-item-address clearfix">
+                            <span>
+                                <a target="_blank" key="showKeyword" class="showKeyword" href="#">君诒花园-[南城-西平宏伟路7号]</a>
+                            </span>
+                        </div>
+                        <p class="house-author house-author-new"><span>中联地产-刚刚更新</span></p>
+                        <p class="goodness">
+                            <span class="goodness_location">地铁沿线</span><span class="goodness_num">不限购</span></p>
+                    </div>
+                    <div class="listings-item-right fr">
+                        <p class="listings-item-price"><span>148</span>万</p>
+                        <p class="onaverage-price">15000元/平米</p>
+                    </div>
+                </div>
+            </div>
+            <hr style="width:1200px; color:lightgray; margin:0 auto; border:solid 1px;">
+            <div class="house_exp">
+                <div class="cycle-listings-item clearfix">
+                    <p class="pic-house fl">
+                        <a target="_blank" href="#">
+                            <img src="images/house_exp.jpg"/>
+                        </a>
+                    </p>
+                    <div class="listings-item-center fl">
+                        <div class="listings-item-title clearfix">
+                            <h3><a href="#">时尚装修3房，通透户型，领包入住精美温馨，精美绝伦</a></h3>
+                        </div>
+                        <div class="listings-item-characteristics clearfix">
+                            <span key="showKeyword">|115平方米|3室2厅|21143元/m²|低层(共26层)|2012年建造</span>
+                        </div>
+                        <div class="listings-item-address clearfix">
+                            <span>
+                                <a target="_blank" key="showKeyword" class="showKeyword" href="#">君诒花园-[南城-西平宏伟路7号]</a>
+                            </span>
+                        </div>
+                        <p class="house-author house-author-new"><span>中联地产-刚刚更新</span></p>
+                        <p class="goodness">
+                            <span class="goodness_location">地铁沿线</span><span class="goodness_num">不限购</span></p>
+                    </div>
+                    <div class="listings-item-right fr">
+                        <p class="listings-item-price"><span>148</span>万</p>
+                        <p class="onaverage-price">15000元/平米</p>
+                    </div>
+                </div>
+            </div>
+            <hr style="width:1200px; color:lightgray; margin:0 auto; border:solid 1px;">
+            <div class="house_exp">
+                <div class="cycle-listings-item clearfix">
+                    <p class="pic-house fl">
+                        <a target="_blank" href="#">
+                            <img src="images/house_exp.jpg"/>
+                        </a>
+                    </p>
+                    <div class="listings-item-center fl">
+                        <div class="listings-item-title clearfix">
+                            <h3><a href="#">时尚装修3房，通透户型，领包入住精美温馨，精美绝伦</a></h3>
+                        </div>
+                        <div class="listings-item-characteristics clearfix">
+                            <span key="showKeyword">|115平方米|3室2厅|21143元/m²|低层(共26层)|2012年建造</span>
+                        </div>
+                        <div class="listings-item-address clearfix">
+                            <span>
+                                <a target="_blank" key="showKeyword" class="showKeyword" href="#">君诒花园-[南城-西平宏伟路7号]</a>
+                            </span>
+                        </div>
+                        <p class="house-author house-author-new"><span>中联地产-刚刚更新</span></p>
+                        <p class="goodness">
+                            <span class="goodness_location">地铁沿线</span><span class="goodness_num">不限购</span></p>
+                    </div>
+                    <div class="listings-item-right fr">
+                        <p class="listings-item-price"><span>148</span>万</p>
+                        <p class="onaverage-price">15000元/平米</p>
+                    </div>
+                </div>
+            </div>
+            <hr style="width:1200px; color:lightgray; margin:0 auto; border:solid 1px;">
+            <div class="house_exp">
+                <div class="cycle-listings-item clearfix">
+                    <p class="pic-house fl">
+                        <a target="_blank" href="#">
+                            <img src="images/house_exp.jpg"/>
+                        </a>
+                    </p>
+                    <div class="listings-item-center fl">
+                        <div class="listings-item-title clearfix">
+                            <h3><a href="#">时尚装修3房，通透户型，领包入住精美温馨，精美绝伦</a></h3>
+                        </div>
+                        <div class="listings-item-characteristics clearfix">
+                            <span key="showKeyword">|115平方米|3室2厅|21143元/m²|低层(共26层)|2012年建造</span>
+                        </div>
+                        <div class="listings-item-address clearfix">
+                            <span>
+                                <a target="_blank" key="showKeyword" class="showKeyword" href="#">君诒花园-[南城-西平宏伟路7号]</a>
+                            </span>
+                        </div>
+                        <p class="house-author house-author-new"><span>中联地产-刚刚更新</span></p>
+                        <p class="goodness">
+                            <span class="goodness_location">地铁沿线</span><span class="goodness_num">不限购</span></p>
+                    </div>
+                    <div class="listings-item-right fr">
+                        <p class="listings-item-price"><span>148</span>万</p>
+                        <p class="onaverage-price">15000元/平米</p>
+                    </div>
+                </div>
+            </div>
+            <hr style="width:1200px; color:lightgray; margin:0 auto; border:solid 1px;">
+            <div class="house_exp">
+                <div class="cycle-listings-item clearfix">
+                    <p class="pic-house fl">
+                        <a target="_blank" href="#">
+                            <img src="images/house_exp.jpg"/>
+                        </a>
+                    </p>
+                    <div class="listings-item-center fl">
+                        <div class="listings-item-title clearfix">
+                            <h3><a href="#">时尚装修3房，通透户型，领包入住精美温馨，精美绝伦</a></h3>
+                        </div>
+                        <div class="listings-item-characteristics clearfix">
+                            <span key="showKeyword">|115平方米|3室2厅|21143元/m²|低层(共26层)|2012年建造</span>
+                        </div>
+                        <div class="listings-item-address clearfix">
+                            <span>
+                                <a target="_blank" key="showKeyword" class="showKeyword" href="#">君诒花园-[南城-西平宏伟路7号]</a>
+                            </span>
+                        </div>
+                        <p class="house-author house-author-new"><span>中联地产-刚刚更新</span></p>
+                        <p class="goodness">
+                            <span class="goodness_location">地铁沿线</span><span class="goodness_num">不限购</span></p>
+                    </div>
+                    <div class="listings-item-right fr">
+                        <p class="listings-item-price"><span>148</span>万</p>
+                        <p class="onaverage-price">15000元/平米</p>
+                    </div>
+                </div>
+            </div>
+            <hr style="width:1200px; color:lightgray; margin:0 auto; border:solid 1px;">
+            <div class="house_exp">
+                <div class="cycle-listings-item clearfix">
+                    <p class="pic-house fl">
+                        <a target="_blank" href="#">
+                            <img src="images/house_exp.jpg"/>
+                        </a>
+                    </p>
+                    <div class="listings-item-center fl">
+                        <div class="listings-item-title clearfix">
+                            <h3><a href="#">时尚装修3房，通透户型，领包入住精美温馨，精美绝伦</a></h3>
+                        </div>
+                        <div class="listings-item-characteristics clearfix">
+                            <span key="showKeyword">|115平方米|3室2厅|21143元/m²|低层(共26层)|2012年建造</span>
+                        </div>
+                        <div class="listings-item-address clearfix">
+                            <span>
+                                <a target="_blank" key="showKeyword" class="showKeyword" href="#">君诒花园-[南城-西平宏伟路7号]</a>
+                            </span>
+                        </div>
+                        <p class="house-author house-author-new"><span>中联地产-刚刚更新</span></p>
+                        <p class="goodness">
+                            <span class="goodness_location">地铁沿线</span><span class="goodness_num">不限购</span></p>
+                    </div>
+                    <div class="listings-item-right fr">
+                        <p class="listings-item-price"><span>148</span>万</p>
+                        <p class="onaverage-price">15000元/平米</p>
+                    </div>
+                </div>
+            </div>
+            <hr style="width:1200px; color:lightgray; margin:0 auto; border:solid 1px;">
+            <div class="page cf">
+                <div class="page_part">
+                    <ul>
+                        <li><a href="#">上一页</a></li>
+                        <li><a href="#">1</a></li>
+                        <li><a href="#">2</a></li>
+                        <li><a href="#">3</a></li>
+                        <li><a href="#">...</a></li>
+                        <li><a href="#">17</a></li>
+                        <li><a href="#">18</a></li>
+                        <li><a href="#">下一页></a></li>
+                    </ul>
+                    <div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--楼房列表-->
+</div>
+<div id="new_footer">
+    <div class="container">
+        <div class="footer_left fl">
+            <div class="footer_top">
+                <img class='fl' src="images/newhome.png" alt=""/>
+                <div class="fl ml20">
+                    <p class="friendship_link">
+                        <a href="#">关于我们</a>
+                        <span>|</span>
+                        <a href="#">人才招聘</a>
+                        <span>|</span>
+                        <a href="#">联系我们</a>
+                        <span>|</span>
+                        <a href="#">用户协议</a>
+                        <span>|</span>
+                        <a href="#">友情链接</a>
+                        <span>|</span>
+                        <a href="#">网站地图</a>
+                    </p>
+                    <p class="phonenum">
+                        客服热线：<span>400-800-8820</span>（工作时间：9：00-21：00）
+                    </p>
+                </div>
+            </div>
+            <p class="address">版权所有 ©深圳市城市屋超科技有限公司 copyright ©2016 apyfc.com All Rights Rights Reserved
+                备案号:粤ICP备16079781号</p>
+        </div>
+        <div class="footer_right">
+            <div class="tc fl">
+                <img src="images/wxCode.png" alt=""/>
+                <p>关注优房超微信号</p>
+            </div>
+            <div class="tc ml30 fl">
+                <img src="images/appCode.png" alt=""/>
+                <p>下载优房超APP</p>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="js/common.js"></script>
+</body>
+</html>

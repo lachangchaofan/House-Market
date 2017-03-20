@@ -1,0 +1,160 @@
+/* CSS Document */
+/*content*/
+.cf:after{ clear: both; overflow: hidden; height: 0; content: ''; display: block; }
+.banner{
+	background:url(../images/banner_bg.jpg);
+	background-size:100% 100%;
+	height:650px;
+}
+.sou{
+	float: right;
+    padding:20px 0;
+}
+.sou input{
+	border: solid 1px #fc7a18;
+	background:url(../images/fangdajing-.jpg) 0 6px no-repeat;
+	padding-left:35px;
+    height:35px;
+    line-height:35px;
+    float:left;
+}
+.sou_link{
+	background: #fc7a18;
+	color:#fff;
+    float:left;
+    padding:0 20px;
+	font-size:14px;
+    height:35px;
+    line-height:35px;
+}
+video{
+    background-color:#222;
+}
+.banner_video{
+    margin:auto;
+}
+.lineHeight{
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+.banner_video_ok{
+	background-color:#222;
+    position:relative;
+    left:50%;
+    margin-left:-500px;
+    width: 1000px;
+}
+.video{
+}
+.video_file{
+	background: #efeded;
+    position:relative;
+	padding:40px 0;
+	
+}
+.video_box{
+	margin: 0 80px;
+	overflow:hidden;
+}
+.video_file video{
+    width:100%
+}
+.video_li{
+    float:left;
+    width:208px;
+    padding:0 5px;
+	position:relative;
+}
+.guiyang_txt{
+    font-size:0.6rem;
+}
+.footer_left {
+    max-width:65%;
+}
+.btnvidow{
+    position:absolute;
+    top:40%;
+    width:30px;
+    height:30px;
+    transform:rotate(-45deg);
+    cursor:pointer;
+    border-radius:4px;
+}
+.prew_vidow{
+    border-left:4px solid #aaa;
+    border-top:4px solid #aaa;
+    left:40px;
+}
+.next_vidow{
+    border-right:4px solid #aaa;
+    border-bottom:4px solid #aaa;
+    right:40px;
+}
+.bofang_video{
+	position:absolute;
+	top:50%;
+	left:50%;
+	width:62px;
+	height:62px;
+	margin:-43px 0 0 -35px;
+	border:4px solid #fff;
+	border-radius:35px;
+	background-color:rgba(255,255,255,.2);
+
+}
+.bofang_span{
+	display:block;
+	border-left:16px solid #fff;
+	border-top:16px solid transparent;
+	border-bottom:16px solid transparent;
+	border-right:16px solid transparent;
+	margin:10px 0 0 21px;
+	border-radius:5px;
+}
+.zanting_span{
+	display:block;
+	width:20px;
+	height:20px;
+	margin:16px 0 0 18px;
+	border-right:6px solid #fff;
+	border-left:6px solid #fff;
+}
+.quanping{
+	position:absolute;
+	bottom:10px;
+	right:20px;
+	width:20px;
+	height:20px;
+}
+.wrap{
+	width:100%;
+}
+.qupin_li{
+	position:absolute;
+	width:5px;
+	height:5px;
+}
+.qupin_lione{
+	border-left:1px solid #aaa;
+	border-top:1px solid #aaa;
+}
+.qupin_litow{
+	border-right:1px solid #aaa;
+	border-top:1px solid #aaa;
+	right:0;
+}
+.qupin_lithr{
+	border-right:1px solid #aaa;
+	border-bottom:1px solid #aaa;
+	right:0;
+	bottom:0;
+}
+.qupin_lif{
+	border-left:1px solid #aaa;
+	border-bottom:1px solid #aaa;
+	bottom:0;
+}

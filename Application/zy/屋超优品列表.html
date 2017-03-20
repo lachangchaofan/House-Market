@@ -1,0 +1,667 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>屋超优品列表</title>
+    <link rel="stylesheet" type="text/css" href="css/reset.css"/>
+	<link rel="stylesheet" type="text/css" href="css/swiper-3.4.0.min.css"/>
+    <link rel="stylesheet" type="text/css" href="css/style.css"/>
+    <link rel="stylesheet" type="text/css" href="css/newslist.css"/>
+    <link rel="stylesheet" href="http://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/good_house_list.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css"/>
+    <script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/swiper-3.4.0.min.js"></script>
+    <script src="js/common.js"></script>
+</head>
+<body>
+<div id="new_header">
+    <div class="container header_container">
+        <img src="images/newhome.png" alt=""/>
+        <div class="header_right">
+            <a href="#">登录</a><span>|</span>
+            <a href="#">注册</a>
+        </div>
+        <ul class="header_nav">
+            <li>
+                <a href="#">首页</a>
+            </li>
+            <li>
+                <a class="active" href="#">平台超</a>
+            </li>
+            <li>
+                <a href="#">公共超</a>
+            </li>
+            <li>
+                <a href="#">财富超</a>
+            </li>
+            <li>
+                <a href="#">新闻岛</a>
+            </li>
+            <li>
+                <a href="#">数据岛</a>
+            </li>
+        </ul>
+    </div>
+</div>
+<div class="container cf search_frame">
+    <div id="search" class="topSearch cf fr">
+        <input class="search-img" placeholder="输入楼盘名称" type="text">
+        <input class="search-btn" value="搜 索" type="submit">
+    </div>
+    <div class="left_title fl">
+        <img src="images/title.png" alt="">
+        <a href="#">优房超首页</a>
+        <span>&gt;</span>
+        <a href="#">平台超</a>
+        <span>&gt;</span>
+        <a href="#">屋超优品列表</a>
+    </div>
+</div>
+<!--<hr>-->
+<!--楼房列表-->
+<div class="content">
+    <div class="area">
+        <!-- 区域条件  -->
+        <div class="characteristics-box clearfix">
+            <span class="characteristics-title fl">区域：</span>
+            <a class="characteristics-item cur" href="javascript:;">不限</a>
+            <div class="characteristics-con clearfix" id="area">
+                <a class="characteristics-item" href="#">东城</a>
+                <a class="characteristics-item" href="#">莞城</a>
+                <a class="characteristics-item" href="#">南城</a>
+                <a class="characteristics-item" href="#">万江</a>
+                <a class="characteristics-item" href="#">石碣</a>
+                <a class="characteristics-item" href="#">石龙</a>
+                <a class="characteristics-item" href="#">茶山</a>
+                <a class="characteristics-item" href="#">石排</a>
+                <a class="characteristics-item" href="#">企石</a>
+                <a class="characteristics-item" href="#">横沥</a>
+                <a class="characteristics-item" href="#">桥头</a>
+                <a class="characteristics-item" href="#">东坑</a>
+                <a class="characteristics-item" href="#">常平</a>
+                <a class="characteristics-item" href="#">寮步</a>
+                <a class="characteristics-item" href="#">长安</a>
+                <a class="characteristics-item" href="#">大朗</a>
+                <a class="characteristics-item" href="#">黄江</a>
+                <a class="characteristics-item" href="#">清溪</a>
+                <a class="characteristics-item" href="#">塘厦</a>
+                <a class="characteristics-item" href="#">凤岗</a>
+                <a class="characteristics-item" href="#">虎门</a>
+                <a class="characteristics-item" href="#">厚街</a>
+                <a class="characteristics-item" href="#">沙田</a>
+                <a class="characteristics-item" href="#">道滘</a>
+                <a class="characteristics-item" href="#">麻涌</a>
+                <a class="characteristics-item" href="#">中堂</a>
+                <a class="characteristics-item" href="#">高埗</a>
+                <a class="characteristics-item" href="#">樟木头</a>
+                <a class="characteristics-item" href="#">大岭山</a>
+                <a class="characteristics-item" href="#">望牛墩</a>
+                <a class="characteristics-item" href="#">松山湖</a>
+            </div>
+        </div>
+        <!-- End 区域条件  -->
+        <!-- 价格条件  -->
+        <div class="characteristics-box clearfix" id="averagePrice">
+            <span class="characteristics-title fl">均价：</span>
+            <a class="characteristics-item cur" href="javascript:;">不限</a>
+            <div class="characteristics-con clearfix">
+                <a class="characteristics-item" href="#">1万以下</a>
+                <a class="characteristics-item" href="#">1-1.2万</a>
+                <a class="characteristics-item" href="#">1.2-1.5万</a>
+                <a class="characteristics-item" href="#">1.5-1.8万</a>
+                <a class="characteristics-item" href="#">1.8-2万</a>
+                <a class="characteristics-item" href="#">2-2.5万</a>
+                <a class="characteristics-item" href="#">2.5万以上</a>
+                <a class="characteristics-item" href="#">价格待定</a>
+            </div>
+        </div>
+        <!-- End 价格条件  -->
+        <!-- 房型条件  -->
+        <div class="characteristics-box clearfix" id="houseType">
+            <span class="characteristics-title fl">户型：</span>
+            <a class="characteristics-item cur" href="javascript:;">不限</a>
+            <div class="characteristics-con clearfix">
+                <a class="characteristics-item" href="#">一室</a>
+                <a class="characteristics-item" href="#">二室</a>
+                <a class="characteristics-item" href="#">三室</a>
+                <a class="characteristics-item" href="#">四室</a>
+                <a class="characteristics-item" href="#">五室及以上</a>
+            </div>
+        </div>
+        <!-- 类型  -->
+        <div class="characteristics-box clearfix" id="useType">
+            <span class="characteristics-title fl">类型：</span>
+            <a class="characteristics-item cur" href="javascript:;">不限</a>
+            <div class="characteristics-con clearfix">
+                <a class="characteristics-item" href="#">住宅</a>
+                <a class="characteristics-item" href="#">别墅</a>
+                <a class="characteristics-item" href="#">商住</a>
+                <a class="characteristics-item" href="#">商铺</a>
+            </div>
+        </div>
+        <!-- End 类型-->
+        <!--状态-->
+        <div class="characteristics-box clearfix" id="state">
+            <span class="characteristics-title fl">状态：</span>
+            <a class="characteristics-item cur" href="javascript:;">不限</a>
+            <div class="characteristics-con clearfix">
+                <a class="characteristics-item" href="#">在售</a>
+                <a class="characteristics-item" href="#">待售</a>
+                <a class="characteristics-item" href="#">售空</a>
+            </div>
+        </div>
+        <!-- End 状态-->
+        <!--特色-->
+        <div class="characteristics-box clearfix" id="feature">
+            <span class="characteristics-title fl">特色：</span>
+            <a class="characteristics-item cur" href="javascript:;">不限</a>
+            <div class="characteristics-con clearfix">
+                <a class="characteristics-item" href="#">打折优惠</a>
+                <a class="characteristics-item" href="#">新盘首开</a>
+                <a class="characteristics-item" href="#">年底热盘</a>
+                <a class="characteristics-item" href="#">小户型</a>
+                <a class="characteristics-item" href="#">低总价</a>
+                <a class="characteristics-item" href="#">现房</a>
+                <a class="characteristics-item" href="#">学区房</a>
+                <a class="characteristics-item" href="#">地铁沿线</a>
+                <a class="characteristics-item" href="#">不限购</a>
+                <a class="characteristics-item" href="#">生态宜居</a>
+                <a class="characteristics-item" href="#">山景地产</a>
+                <a class="characteristics-item" href="#">旅游地产</a>
+                <a class="characteristics-item" href="#">酒店式公寓</a>
+            </div>
+        </div>
+        <!--特色-->
+        <div class="present">
+            <span class="bg fl">当前条件：</span>
+            <div class="locate_list fl">
+                <div class="wrong fl">
+                    <ul id="wrong" class="cf">
+                    </ul>
+                </div>
+                <div class="reset"><img src="images/reset.jpg">
+                    <span><a href="#">删除全部</a></span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="house_list">
+        <div class="form">
+            <form class="cf">
+                <select name="" data-width="120">
+                    <option value="0">默认排序</option>
+                    <option value="1">按开盘时间</option>
+                    <option value="2">安楼盘热度</option>
+                    <option value="2">安楼盘价格</option>
+                </select>
+            </form>
+        </div>
+        <div class="house_title">
+            <p>屋超优品(31)</p>
+        </div>
+        <div id="list_pic">
+            <hr style="width:1200px; color:#CCC; margin:0 auto; border:solid 1px #CCC;">
+            <ul>
+                <li>
+                    <a href="#">
+                        <img src="images/pic_list.jpg" width="250" height="250"/>
+                        <b class="fl">均价:</b>
+                        <span class="money fl"><span class="num">41000</span>元/平</span>
+                        <p class="fl">常平大道与新城大道交汇处（常平轻轨..</p>
+                        <img class="fl" src="images/locate_pic.jpg">
+                        <div class="zone_name">恒大雅苑</div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="images/pic_list.jpg" width="250" height="250"/>
+                        <b class="fl">均价:</b>
+                        <span class="money fl"><span class="num">41000</span>元/平</span>
+                        <p class="fl">常平大道与新城大道交汇处（常平轻轨..</p>
+                        <img class="fl" src="images/locate_pic.jpg">
+                        <div class="zone_name">恒大雅苑</div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="images/pic_list.jpg" width="250" height="250"/>
+                        <b class="fl">均价:</b>
+                        <span class="money fl"><span class="num">41000</span>元/平</span>
+                        <p class="fl">常平大道与新城大道交汇处（常平轻轨..</p>
+                        <img class="fl" src="images/locate_pic.jpg">
+                        <div class="zone_name">恒大雅苑</div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="images/pic_list.jpg" width="250" height="250"/>
+                        <b class="fl">均价:</b>
+                        <span class="money fl"><span class="num">41000</span>元/平</span>
+                        <p class="fl">常平大道与新城大道交汇处（常平轻轨..</p>
+                        <img class="fl" src="images/locate_pic.jpg">
+                        <div class="zone_name">恒大雅苑</div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="images/pic_list.jpg" width="250" height="250"/>
+                        <b class="fl">均价:</b>
+                        <span class="money fl"><span class="num">41000</span>元/平</span>
+                        <p class="fl">常平大道与新城大道交汇处（常平轻轨..</p>
+                        <img class="fl" src="images/locate_pic.jpg">
+                        <div class="zone_name">恒大雅苑</div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="images/pic_list.jpg" width="250" height="250"/>
+                        <b class="fl">均价:</b>
+                        <span class="money fl"><span class="num">41000</span>元/平</span>
+                        <p class="fl">常平大道与新城大道交汇处（常平轻轨..</p>
+                        <img class="fl" src="images/locate_pic.jpg">
+                        <div class="zone_name">恒大雅苑</div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="images/pic_list.jpg" width="250" height="250"/>
+                        <b class="fl">均价:</b>
+                        <span class="money fl"><span class="num">41000</span>元/平</span>
+                        <p class="fl">常平大道与新城大道交汇处（常平轻轨..</p>
+                        <img class="fl" src="images/locate_pic.jpg">
+                        <div class="zone_name">恒大雅苑</div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="images/pic_list.jpg" width="250" height="250"/>
+                        <b class="fl">均价:</b>
+                        <span class="money fl"><span class="num">41000</span>元/平</span>
+                        <p class="fl">常平大道与新城大道交汇处（常平轻轨..</p>
+                        <img class="fl" src="images/locate_pic.jpg">
+                        <div class="zone_name">恒大雅苑</div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="images/pic_list.jpg" width="250" height="250"/>
+                        <b class="fl">均价:</b>
+                        <span class="money fl"><span class="num">41000</span>元/平</span>
+                        <p class="fl">常平大道与新城大道交汇处（常平轻轨..</p>
+                        <img class="fl" src="images/locate_pic.jpg">
+                        <div class="zone_name">恒大雅苑</div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="images/pic_list.jpg" width="250" height="250"/>
+                        <b class="fl">均价:</b>
+                        <span class="money fl"><span class="num">41000</span>元/平</span>
+                        <p class="fl">常平大道与新城大道交汇处（常平轻轨..</p>
+                        <img class="fl" src="images/locate_pic.jpg">
+                        <div class="zone_name">恒大雅苑</div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="images/pic_list.jpg" width="250" height="250"/>
+                        <b class="fl">均价:</b>
+                        <span class="money fl"><span class="num">41000</span>元/平</span>
+                        <p class="fl">常平大道与新城大道交汇处（常平轻轨..</p>
+                        <img class="fl" src="images/locate_pic.jpg">
+                        <div class="zone_name">恒大雅苑</div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="images/pic_list.jpg" width="250" height="250"/>
+                        <b class="fl">均价:</b>
+                        <span class="money fl"><span class="num">41000</span>元/平</span>
+                        <p class="fl">常平大道与新城大道交汇处（常平轻轨..</p>
+                        <img class="fl" src="images/locate_pic.jpg">
+                        <div class="zone_name">恒大雅苑</div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="images/pic_list.jpg" width="250" height="250"/>
+                        <b class="fl">均价:</b>
+                        <span class="money fl"><span class="num">41000</span>元/平</span>
+                        <p class="fl">常平大道与新城大道交汇处（常平轻轨..</p>
+                        <img class="fl" src="images/locate_pic.jpg">
+                        <div class="zone_name">恒大雅苑</div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="images/pic_list.jpg" width="250" height="250"/>
+                        <b class="fl">均价:</b>
+                        <span class="money fl"><span class="num">41000</span>元/平</span>
+                        <p class="fl">常平大道与新城大道交汇处（常平轻轨..</p>
+                        <img class="fl" src="images/locate_pic.jpg">
+                        <div class="zone_name">恒大雅苑</div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="images/pic_list.jpg" width="250" height="250"/>
+                        <b class="fl">均价:</b>
+                        <span class="money fl"><span class="num">41000</span>元/平</span>
+                        <p class="fl">常平大道与新城大道交汇处（常平轻轨..</p>
+                        <img class="fl" src="images/locate_pic.jpg">
+                        <div class="zone_name">恒大雅苑</div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="images/pic_list.jpg" width="250" height="250"/>
+                        <b class="fl">均价:</b>
+                        <span class="money fl"><span class="num">41000</span>元/平</span>
+                        <p class="fl">常平大道与新城大道交汇处（常平轻轨..</p>
+                        <img class="fl" src="images/locate_pic.jpg">
+                        <div class="zone_name">恒大雅苑</div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="images/pic_list.jpg" width="250" height="250"/>
+                        <b class="fl">均价:</b>
+                        <span class="money fl"><span class="num">41000</span>元/平</span>
+                        <p class="fl">常平大道与新城大道交汇处（常平轻轨..</p>
+                        <img class="fl" src="images/locate_pic.jpg">
+                        <div class="zone_name">恒大雅苑</div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="images/pic_list.jpg" width="250" height="250"/>
+                        <b class="fl">均价:</b>
+                        <span class="money fl"><span class="num">41000</span>元/平</span>
+                        <p class="fl">常平大道与新城大道交汇处（常平轻轨..</p>
+                        <img class="fl" src="images/locate_pic.jpg">
+                        <div class="zone_name">恒大雅苑</div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="images/pic_list.jpg" width="250" height="250"/>
+                        <b class="fl">均价:</b>
+                        <span class="money fl"><span class="num">41000</span>元/平</span>
+                        <p class="fl">常平大道与新城大道交汇处（常平轻轨..</p>
+                        <img class="fl" src="images/locate_pic.jpg">
+                        <div class="zone_name">恒大雅苑</div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="images/pic_list.jpg" width="250" height="250"/>
+                        <b class="fl">均价:</b>
+                        <span class="money fl"><span class="num">41000</span>元/平</span>
+                        <p class="fl">常平大道与新城大道交汇处（常平轻轨..</p>
+                        <img class="fl" src="images/locate_pic.jpg">
+                        <div class="zone_name">恒大雅苑</div>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="page">
+            <ul>
+                <li class="prev">
+                    <a href="#">
+                        上一页
+                    </a>
+                </li>
+                <li class="curr">
+                    <a href="#">1</a>
+                </li>
+                <li>
+                    <a href="#">2</a>
+                </li>
+                <li>
+                    <a href="#">3</a>
+                </li>
+                <li class="etc">
+                    <a href="#">...</a>
+                </li>
+                <li>
+                    <a href="#">17</a>
+                </li>
+                <li>
+                    <a href="#">18</a>
+                </li>
+                <li class="next">
+                    <a href="#">下一页</a>
+                </li>
+                <li class="page_num">
+                    共<span>18</span>页，到第
+                    <input type="text">页
+                    <input type="submit" class="submit" value="确定">
+                </li>
+            </ul>
+        </div>
+    </div>
+ </div>
+ <div class="swiper_animate"> 
+		<div class="swiper-container">
+			<div class="swiper-wrapper">
+				<div class="swiper-slide">
+					<ul class="swiper_nav"> 
+						<li>
+							<a href="#">
+								<div class="face">
+									<img src="images/sd.png">
+								</div>
+								<div class="no-face">
+									<p class="face_title"><span class="tstL">碧桂圆指挥家碧桂圆指挥家</span><span class="tstR">16500元/m2</span> </p>
+									<p class="face_txt mt30">区域：常平火车站</p>
+									<p class="face_txt face_door">主推户型：1房1厅[45m2]，2强21321321</p>
+									<p class="face_bt mt20">地铁沿线/生态宜居/景观居所</p>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<div class="face">
+									<img src="images/sd.png">
+								</div>
+								<div class="no-face">
+									<p class="face_title"><span class="tstL">碧桂圆指挥家碧桂圆指挥家</span><span class="tstR">16500元/m2</span> </p>
+									<p class="face_txt mt30">区域：常平火车站</p>
+									<p class="face_txt face_door">主推户型：1房1厅[45m2]，2强21321321</p>
+									<p class="face_bt mt20">地铁沿线/生态宜居/景观居所</p>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<div class="face">
+									<img src="images/sd.png">
+								</div>
+								<div class="no-face">
+									<p class="face_title"><span class="tstL">碧桂圆指挥家碧桂圆指挥家</span><span class="tstR">16500元/m2</span> </p>
+									<p class="face_txt mt30">区域：常平火车站</p>
+									<p class="face_txt face_door">主推户型：1房1厅[45m2]，2强21321321</p>
+									<p class="face_bt mt20">地铁沿线/生态宜居/景观居所</p>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<div class="face">
+									<img src="images/sd.png">
+								</div>
+								<div class="no-face">
+									<p class="face_title"><span class="tstL">碧桂圆指挥家碧桂圆指挥家</span><span class="tstR">16500元/m2</span> </p>
+									<p class="face_txt mt30">区域：常平火车站</p>
+									<p class="face_txt face_door">主推户型：1房1厅[45m2]，2强21321321</p>
+									<p class="face_bt mt20">地铁沿线/生态宜居/景观居所</p>
+								</div>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>				
+		</div>
+		<div class="swiper-button-next swiper-button-black"></div>
+		<div class="swiper-button-prev swiper-button-black"></div>		
+</div>
+<div id="new_footer">
+    <div class="container">
+        <div class="footer_left fl">
+            <div class="footer_top">
+                <img class='fl' src="images/newhome.png" alt=""/>
+                <div class="fl ml20">
+                    <p class="friendship_link">
+                        <a href="#">关于我们</a>
+                        <span>|</span>
+                        <a href="#">人才招聘</a>
+                        <span>|</span>
+                        <a href="#">联系我们</a>
+                        <span>|</span>
+                        <a href="#">用户协议</a>
+                        <span>|</span>
+                        <a href="#">友情链接</a>
+                        <span>|</span>
+                        <a href="#">网站地图</a>
+                    </p>
+                    <p class="phonenum">
+                        客服热线：<span>400-800-8820</span>（工作时间：9：00-21：00）
+                    </p>
+                </div>
+            </div>
+            <p class="address">版权所有 ©深圳市城市屋超科技有限公司 copyright ©2016 apyfc.com All Rights Rights Reserved
+                备案号:粤ICP备16079781号</p>
+        </div>
+        <div class="footer_right">
+            <div class="tc fl">
+                <img src="images/wxCode.png" alt=""/>
+                <p>关注优房超微信号</p>
+            </div>
+            <div class="tc ml30 fl">
+                <img src="images/appCode.png" alt=""/>
+                <p>下载优房超APP</p>
+            </div>
+        </div>
+    </div>
+</div>
+<script type="text/javascript">
+    $('.house_list select').selectStyle(100,'fa-angle-down');
+    $(".page li").click(function(e){
+        var cls=$(this).attr('class');
+        switch(cls){
+            case 'prev':
+                if($('.page .curr a').text()=='1') return;
+                $('.page .curr').removeClass('curr').prev().addClass('curr');
+                break;
+            case 'next':
+                if ($(this).prev().attr('class')=='curr') return;
+                $('.page .curr').removeClass('curr').next().addClass('curr');
+                break;
+            case 'curr':
+                return;
+                break;
+            case 'ect':
+                break;
+            case 'page_num':
+                    if($(e.target).attr('type')=='submit') {
+                        var val=$(".page_num input[type='text']").val();
+                                            var length=$('.page ul li a').length;
+                        for(var i = 0 ; i < length ; i++ )
+                        {
+                            if($('.page ul li a').eq(i).text()==val){
+                                $('.page ul li').eq(i).addClass('curr').siblings().removeClass('curr');
+                            };
+                        }
+                    }
+                break;
+            default:
+                $(this).addClass('curr').siblings().removeClass('curr');
+                break;
+        }
+    })
+    $(document).ready(function(){
+        $(".news_info").each(function(){
+            var maxwidth=60;
+            if($(this).text().length>maxwidth){
+                $(this).text($(this).text().substring(0,maxwidth));
+                $(this).html($(this).html()+'...');
+            }
+        });
+        var flag=flag1=flag2=flag3=flag4=flag5=true;
+
+        function filter(flag,name,ele){
+            this.falg=flag;
+            console.log(this.falg);
+            if(this.falg){
+                $('.present').show();
+                var oLi='<li class='+name+'></li>';
+                $('#wrong').append(oLi);
+                $('#wrong li.'+name+'').html(ele.text()+'<img src="images/false.png" class="wrong_pic" />');
+            }
+            else{
+                $('.present').show();
+                $('#wrong li.'+name+'').html(ele.text()+'<img src="images/false.png" class="wrong_pic" />');
+            }
+        }
+
+        $('a.characteristics-item').click(function(){
+            console.log($(this).parents('div').index());
+            if($(this).parents('div').index()==4){
+                filter(flag,'areaList',$(this));
+                flag=false;
+            }
+            else if($(this).parents('div').index()==5){
+                filter(flag1,'averagePrice',$(this));
+                flag1=false;
+            }
+            else if($(this).parents('div').index()==6){
+                filter(flag2,'houseType',$(this));
+                flag2=false;
+            }
+            else if($(this).parents('div').index()==7){
+                filter(flag3,'useType',$(this));
+                flag3=false;
+            }
+            else if($(this).parents('div').index()==8){
+                filter(flag4,'state',$(this));
+                flag4=false;
+            }
+            else{
+                filter(flag5,'feature',$(this));
+                flag5=false;
+            }
+        });
+        $('#wrong').on('mouseenter','li',function(){
+            $(this).css({
+                color:'#ff6600'
+            }).find('img').attr({
+                src:'images/wrong.jpg'
+            });
+        }).on('mouseleave','li',function(){
+            $(this).css({
+                color:'#2a2a2a',
+            }).find('img').attr({
+                src:'images/false.png'
+            });
+        }).on('click','li',function(){
+            $(this).remove();
+            if($('#wrong li').length<1){
+                $('.present').hide();
+            }
+        });
+        $('.reset').click(function(){
+            $('#wrong li').remove();
+            $('.present').hide();
+            //					flag = flag1 = flag2 = flag3 = flag4 = flag5 = true;
+        });
+    });
+	var swiper= new Swiper('.swiper-container', {
+		nextButton: '.swiper-button-next',
+		prevButton: '.swiper-button-prev',
+		loop:true,
+		simulateTouch : false,
+	});
+</script>
+</body>
+</html>

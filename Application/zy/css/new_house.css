@@ -1,0 +1,102 @@
+/* CSS Document */
+.cf:after{ display:block; clear:both; height:0; content:""; }
+.characteristics-box{ padding: 6px 6px; margin: 0 auto }
+.characteristics-title{ line-height: 24px; color: #999; font-size: 12px; }
+.select{ width: 70px;  line-height:28px; margin-right:3px; padding-left:12px; height:28px;font-size:14px; }
+.select_more{font-size:14px; display:inline-block; *display:inline; *zoom:1; height:28px; line-height:28px; width:70px; padding-left:10px; color:#4e4e4e; cursor:pointer;}
+.select_more .fa{ margin-left:5px; border:1px solid #000;border-radius:50%; width:14px; line-height:14px; height:14px;text-align:center}
+.present{ background: #F3F3F3; height: 40px; }
+.locate_list{ float: right; margin-top: 8px; margin-right: 650px; }
+.wrong{ float: left; }
+.wrong ul li{ padding: 3px 10px 3px 10px; margin-left: 20px; border: solid 1px lightgrey; background: white; font-size: 12px; }
+.wrong ul li img{ margin-left: 5px; }
+.wrong_pic{ float: right; }
+.reset{ float: right; margin-left: 20px; margin-top: 1px; }
+.reset a{ font-size: 12px; margin-left: 5px; }
+.reset img{ margin-top: 4px; float: left; }
+.locate{ float: left; }
+.bg{ color: #999; font-size: 12px; line-height: 40px; padding-left: 5px; }
+.characteristics-con{ overflow: hidden; *zoom: 1; }
+.characteristics-con .check-item{ padding-left:60px;}
+#labels span{ font-size: 14px; }
+.characteristics-con .cur a, .characteristics-con .cur a:hover{ color: #F60; text-decoration: none; font-weight: 700; cursor: default; }
+.characteristics-con .special a, .characteristics-con .special a:hover{ color: #F60; font-weight: 700; }
+.characteristics-item{ float: left; line-height: 24px; padding: 0 10px 0 0; position: relative; }
+.characteristics-item a{ white-space: nowrap; display: block; padding: 0 4px; font-size: 12px; color: black; }
+.pic-house{ overflow: visible; }
+.listings-item-center{ color: #787878; width: 50%; }
+.listings-item-title{ margin: 0 0 2px; }
+.listings-item-title h3{ width: 100%; float: left; font-size: 16px; font-weight: bold; overflow: hidden; white-space: nowrap; -o-text-overflow: ellipsis; text-overflow: ellipsis; margin-left: 10px; }
+.listings-item-title h3 a{ color: black; }
+.listings-item-title h3 a:visited, .list-content ul li .list-text h3 a:visited{ color: black; }
+.listings-item-address{ margin: 5px 5px 0 10px; width: 100%; overflow: hidden; white-space: nowrap; -o-text-overflow: ellipsis; text-overflow: ellipsis; }
+.listings-item-address a{ color: #787878; font-size: 12px; }
+.listings-item-characteristics{ margin: 15px 0 5px; color: #2E2E2E; font-size: 13px; }
+.listings-item-characteristics span{ display: block; float: left; margin: 5px 5px 0 10px; font-size: 12px; }
+.listings-item-characteristics .v_line{ height: 12px; background: #CCC; margin: 4px 15px 0; }
+.listings-item-bottom{ padding: 9px 0 0; }
+.house-author{ color: #CCC; line-height: 16px; margin: 5px 5px 0 10px; font-size: 12px; }
+.house-author span{ display: inline-block; *display: inline; *zoom: 1; padding: 0 15px 0 0; }
+.listings-item-right{ padding: 25px 10px 0 0; text-align: right; }
+.listings-item-price{ color: #F60; }
+.listings-item-price span{ font-size: 26px; font-family: tahoma; font-weight: 700; }
+.onaverage-price{ top: 0; position: relative; color: #999; font-size: 12px; }
+.listings-item-right{ position: relative; }
+hr{ margin: 0 auto; }
+.content{ margin-top: 30px; margin: 0 auto; }
+.area{ width: 1200px; margin: 0 auto; border:1px solid #e4e4e4; padding-top:20px; }
+.house_top{ height: 60px; width: 1200px; margin: 0 auto; }
+.house_release{ float: right; margin: 15px; }
+.house_title{ float: left; margin-top: 28px; }
+.house_title ul li a{ color: black; font-size: 14px; font-weight: bold; padding: 10px; }
+.house_title ul li .active{ background: #E76E12; color: white; }
+.house_center{ height: 50px; width: 1200px; margin: 0 auto; }
+.house_number{ float: right; margin-top: 15px; }
+.house_number span{ color: #FC7A18; }
+.house_small_title{ float: left; margin-top: 15px; margin-left: 10px; }
+.house_small_title ul li{ padding-left: 15px; font-size: 12px; }
+.house_small_title ul li a{ color: black; }
+.house_small_title .fa{font-size:16px; margin-left:2px;}
+.house_small_title .curr{ color: #FC7A18;}
+.house_list{ width: 1200px; margin: 0 auto; }
+.house_exp{ height: 115px; margin: 30px; padding-bottom: 135px; }
+.page{ margin-bottom:50px;}
+.page_all{ float: right; margin-top: 55px; margin-right: 340px; }
+.page_part{ float: left; margin-top: 50px; margin-left: 385px; }
+.page_part ul li{ margin-left: 15px; border: solid 1px lightgrey; padding: 5px; }
+.page_part ul li:hover{ background: #FC7A18; }
+.house_recommend{ height: 300px; width: 1200px; margin: 0 auto; }
+.house_recommend dl{ border-bottom: 3px solid #fc7a18;}
+.house_recommend dl dt{ width: 118px; line-height: 42px; cursor: pointer;font-size: 20px;}
+.house_recommend dl dd{ width: 118px; line-height: 42px; font-size: 20px; color: #5b5b5b;}
+.house_recommend dl .curr{ color: #FFF; background-color: #FC7A18;}
+.house_recommend ul li{ margin-left: 12px; }
+.house_recommend ul.curr{ display: block;}
+.area_title{ margin-top:70px;}
+.area_title dl{ border-bottom: 3px solid #fc7a18;}
+.area_title dl dt{ width: 118px; line-height: 42px; cursor: pointer;font-size: 20px;}
+.area_title dl dd{ width: 308px; line-height: 42px; font-size: 20px; color: #5b5b5b; position:relative;font-size:14px;}
+.area_title dd input[type='text']{ padding-left:48px; width:233px; height:36px; border:1px solid #FC7A18;}
+.area_title dd input[type='submit']{ width:72px; height:36px; line-height:36px;text-align:center; color:#FFF;font-size:14px; background-color:#FC7A18; border:1px solid #FC7A18; cursor:pointer;}
+.area_title dl .curr{ color: #FFF; background-color: #FC7A18;}
+.area_title ul li{ margin-left: 12px; }
+.area_title ul.curr{ display: block;}
+.area_title dd .fa{ position:absolute; left:10px;font-size:20px; top:8px; color:#a8a8a8;}
+.house_text{ font-weight: bold; border-bottom: solid 2px lightgrey; width: 60px; margin-top: 120px; font-size: 14px; width: 1200px; }
+.new_house_content .curr{ display:block;}
+hr{ width: 1170px; color: lightgray; margin-top: 30px; }
+.new_house_show{ background: #F7F7F7; height: 240px;margin-top: 30px; }
+.house_information{ margin: 10px; font-size: 12px; }
+.house_information .house_name{ font-size: 14px; font-weight: bold; }
+.house_information .money{ font-size: 14px; font-weight: bold; color: #F26700; }
+.goodness{ margin-top: 10px; padding-left: 10px;}
+.goodness .goodness_location{ display: inline-block; color: #dcbd82; border: 1px solid #dcbd82; padding: 5px 7px; }
+.goodness .goodness_num{ display: inline-block; color: #5eb071; border: 1px solid #5eb071; padding: 5px 7px; margin-left: 3px; }
+.tab-con{ display: none;}
+.signs{font-size:12px;}
+.signs dt{ width:32px; height:32px;}
+.signs dd{ line-height:32px;}
+.signs .icon1{ background-image:url(../images/icon1.png);}
+.signs .icon2{ background-image:url(../images/icon2.png);}
+.signs .icon3{ background-image:url(../images/icon3.png);}
+.signs .icon4{ background-image:url(../images/icon4.png);}

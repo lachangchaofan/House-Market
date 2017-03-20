@@ -1,0 +1,44 @@
+.shop_right{padding:30px 40px;min-height:906px}
+.shop_title{font-size:18px;color:#333;}
+.shop_txt{font-size:13px;color:#666;margin-top:25px;margin-bottom:30px;}
+.step{padding-left:25px;}
+.step .step_list{height:50px;line-height:48px;border-bottom:2px solid transparent;box-sizing:border-box;display:inline-block;
+width:110px;font-size:13px;color:#333;text-align:center;}
+.step .active{border-color:#fc7a18;color:#fc7a18;}
+.bet{margin:0 40px;}
+.ml5{margin-left:5px;}
+.shop_type{overflow:hidden;padding:50px 0 100px 127px;margin-top:60px;border:1px solid #dadada}
+.shop_type li{width:200px;text-align:center;font-size:12px;color:#666;}
+.shop_type img{display:block;margin:20px auto;}
+.shop_type .personstore{font-size:18px;color:#333;margin-bottom:20px;}
+.shop_type p{line-height:30px;}
+.shop_type a{display:block;color:#fff;font-size:13px;text-align:center;width:100%;height:42px;
+line-height:42px;background-color:#fc7a18;border-radius:4px;}
+.mr255{margin-right:255px;}
+.shop_content{margin-top:30px;}
+.shop_content p{color:#333;font-size:13px;line-height:30px;letter-spacing:1px;}
+.shop_btn{display:block;margin:30px auto;color:#fff;width:100px;height:34px;text-align:center;line-height:34px;font-size:13px;
+background:#fc7a18}
+.step_three{margin-top:30px;}
+.step_three dl{clear:both;margin-bottom:20px;height:30px;}
+.step_three dl dt{width:162px;float:left;height:30px;line-height:30px;color:#333;font-size:13px;text-align:right}
+.step_three dl dd{float:left;min-width:440px;}
+.brand .select .cite{height:30px;line-height:30px;border:1px solid #dadada}
+.brand span.other_brand,.brand input{float:left;height:30px;line-height:30px;font-size:13px;display:inline-block}
+.brand .select ul li{height:30px;line-height:30px;}
+.brand .select ul li a{height:30px;text-align:center;}
+.brand .select .cite{text-align:center;width:120px;}
+.brand .select ul{width:120px;}
+.brand .select{position:static}
+.other_brand{margin-left:10px;}
+.other_brand+input{border:1px solid #dadada;width:110px;display:inline-block;text-indent:10px;}
+.shop_file img,.file_upload{float:left;position:relative;}
+.file_upload{height:30px;line-height:30px;width:90px;text-align:center;position:relative;
+text-align:center;color:#fff;background:#a7a7a7;border-radius:5px;font-size:12px;margin-left:145px;}
+.file_upload input{width:90px;position:absolute;height:30px;opacity:0;left:0;}
+.step_three .filse_box{margin-bottom:90px;}
+.filse_box img{position:absolute;top:-10px;left:0;max-width:121px;nax-height:90px;}
+.filse_box dd{position:relative}
+.int{border:1px solid #dadada;height:30px;text-indent:10px;}
+.shop_address{width:300px;}
+.shop_sub{margin:0 0 0 162px;}

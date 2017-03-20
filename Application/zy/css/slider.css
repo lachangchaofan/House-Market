@@ -1,0 +1,82 @@
+#content{
+	width:1200px;
+	height:500px;
+	margin:80px auto;
+	text-align:center;
+}
+#content ul.accordion {
+	list-style:none;
+	font-size: 16px;
+	line-height: 1.5em;
+	display:inline-block;
+}
+#content ul.accordion li {
+	float:right;
+	width:115px;
+	height:480px;
+	display:block;
+	border-right:2px solid #fff;
+	border-bottom:2px solid #fff;
+	background-color:#fff;
+	background-repeat:no-repeat;
+	background-position:center center;
+	position:relative;
+	overflow:hidden;
+	cursor:pointer;
+	-moz-box-shadow:1px 3px 15px #555;
+	-webkit-box-shadow:1px 3px 15px #555;
+	box-shadow:1px 3px 15px #555;
+}
+#content ul.accordion li.bg1 {
+	background:url(../images/banner_pic1.jpg);
+}
+#content ul.accordion li.bg2 {
+	background:url(../images/banner_pic1.jpg);
+}
+#content ul.accordion li.bg3 {
+	background:url(../images/banner_pic1.jpg);
+}
+#content ul.accordion li.bg4 {
+	background:url(../images/banner_pic1.jpg);
+}
+#content ul.accordion li.bleft {
+	border-left:2px solid #fff;
+}
+#content ul.accordion li .heading {
+	background:rgba(0,0,0,0.6);
+	padding:10px;
+	margin-top:30px;
+	opacity:0.9;
+	text-transform:uppercase;
+	font-style:normal;
+	font-weight:bold;
+	letter-spacing:1px;
+	font-size:14px;
+	color:white;
+	text-align:center;
+	text-shadow:-1px -1px 1px #ccc;
+}
+#content ul.accordion li .description {
+	position:absolute;
+	width:480px;
+	height:175px;
+	bottom:0px;
+	left:0px;
+	display:none;
+}
+#content ul.accordion li .description h2 {
+	font-weight:bold;
+	letter-spacing:1px;
+	font-size:45px;
+	color:white;
+	text-align:left;
+	margin:0px 0px 15px 20px;
+	text-shadow:-1px -1px 1px #ccc;
+}
+#content ul.accordion li .description p {
+	line-height:30px;
+	margin:10px 22px;
+	font-size: 16px;
+	font-weight: bold;
+	color:white;
+}

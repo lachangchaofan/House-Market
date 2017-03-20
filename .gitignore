@@ -1,3 +1,6 @@
+node_module
+.idea
+.Ds_store
 *.class
 
 # Mobile Tools for Java (J2ME)

@@ -1,0 +1,146 @@
+.room_show{width:100%;position:relative;clear:both;}
+.room_show .swiper-container{width:520px;margin-top:35px;}
+.room_show .swiper-button-next, .room_show .swiper-button-prev{width:22px;height:35px;background-size:22px 35px}
+.room_show .swiper-button-next.swiper-button-disabled,.room_show .swiper-button-prev.swiper-button-disabled{opacity:0}
+.room_show .swiper-pagination{color:#fff;text-align:right;padding-right:20px;}
+.room_left{float:left;width:520px;}
+.roompic{margin-top:15px;overflow:hidden}
+.roompic li{margin-right:8px;border:1px solid transparent;box-sizing:border-box;}
+.roompic li:last-child{margin-right:0;}
+.room_right{float:left;margin-left:52px;}
+.room_title,.room_type{overflow:hidden;margin-top:55px;}
+.room_title span{float:left;}
+.room_name{font-size:27px;color:#1a1a1a;height:50px;line-height:50px;}
+.sale_shape{background-color:#f22401;width:50px;height:28px;text-align:center;
+line-height:28px;position:relative;font-size:16px;color:#fff;display:inline-block;margin:10px 0 0 15px;}
+.sale_shape:before{content:"";display:block;position:absolute;left:-10px;top:9px;
+width: 0; height: 0; border-top: 5px solid transparent; border-right: 10px solid red; 
+border-bottom: 5px solid transparent;}
+.room_type{margin:16px 0}
+.room_type span{float:left;padding:3px 10px;border:1px solid #a8a8a8;margin-right:10px;
+color:#fc7a18;font-size:14px;}
+.room_info{line-height:40px;height:40px;font-size:16px;color:#333;}
+.room_price .price_num{color:#fc7a18;font-size:25px;margin:0 3px;}
+.room_search,.room_map,.room_phone,.calculator span{display:inline-block;background:no-repeat center center;margin:0 3px 0 10px;}
+.room_search{width:13px;height:15px;background-image:url("../images/room_search.png")}
+.room_map{width:11px;height:15px;background-image:url("../images/room_map.png")}
+.room_phone{width:30px;height:30px;background-image:url("../images/room_phone.png");
+margin-top:8px;float:left;margin-left:30px;}
+.bla{color:#333;}
+.blu{color:#00a0e9}
+.master_phone{clear:both;width:435px;height:46px;background:#eeeeee;line-height:46px;margin-top:10px;}
+.phone{float:left;color:#686868;font-size:25px;margin-left:10px;}
+.edit{position:absolute;right:5px;top:-5px;}
+.edit a{display:inline-block;float:left;width:44px;color:#333;text-align:center;}
+.calculator{position:absolute;right:70px;top:100px;line-height:30px;}
+.calculator span{width:18px;height:19px;background-image:url("../images/room_cal.png");
+margin-right:10px;float:left;margin-top:5px;}
+.room_btn{margin-top:20px;}
+.room_btn a{display:inline-block;width:144px;height:46px;text-align:center;float:left;
+color:#fff;font-size:14px;}
+.room_btn a img{margin:12px 11px 0 24px;float:left}
+.room_btn a span{display:inline-block;line-height:46px;height:46px;float:left}
+.btnL{background:#00a0e9;}
+.btnR{background:#fc7a18;margin-left:10px;}
+.room_item{clear:both;}
+.room_nav{border-bottom:2px solid #fc7a18;overflow:hidden;padding-top:90px;background:#fff;width:100%;}
+.room_nav li a{display:inline-block;width:118px;height:40px;text-align:center;
+line-height:42px;color:#333;}
+.room_nav li a.active{background:#fc7a18;color:#fff;}
+#discount{height:175px;width:100%;background:#ff3d3d;position:relative;margin-top:25px;}
+.discount_sign{position:absolute;top:0;left:0;}
+#discount div{display:inline-block;float:left;text-align:center;color:#fff;}
+.discount_title{width:294px;padding:50px 0;}
+.fs30{font-size:30px;}
+.discount_room{font-size:14px;color:#ffef9c;margin-top:10px;}
+.discount_room span{font-size:25px;}
+.discounts section{font-size:40px;line-height:90px;width:320px;height:90px;border-left:1px dashed #ffef9c;
+}
+.discounts,.discount_activity{padding:42px 0;}
+.discount_activity{width:310px;}
+.discount_activity p{height:30px;line-height:30px;text-align:left;font-size:14px;letter-spacing:1px;}
+.discount_activity section{border-right:1px dashed #ffef9c;}
+.discount_time{padding:20px 0 20px 50px;width:280px;}
+.discount_timet{overflow:hidden;height:40px;}
+.discount_timet img,.discount_timet span{float:left;}
+.discount_timet span{font-size:22px;line-height:40px}
+.discount_timet img{margin-top:4px;margin-right:10px;}
+.end_time{font-size:13px;margin-top:10px;}
+.discount_time a{display:block;width:160px;height:56px;text-align:center;line-height:56px;
+font-size:24px;color:#ff3d3d;background:#ffe985;margin-top:20px;border-radius:5px;}
+#houseing{margin-top:30px;padding:0 10px;}
+
+.titleTemp{height:50px;line-height:50px;border-bottom:1px solid #eaeaea;line-height:50px;
+font-size:20px;font-weight:700;text-indent:20px;}
+.houseing_nav{overflow:hidden;font-size:20px;color:#333;margin:30px 0;display:inline-block}
+.houseing_nav li{width:130px;height:42px;text-align:center;line-height:42px;
+border-right:1px solid #cacaca;letter-spacing:1px;}
+.houseing_nav li:first-child{width:150px;}
+.houseing_nav li:last-child{border:none}
+.houseing_nav li.active{color:#fc7a18}
+.tc{text-align:center;}
+.houseing_bd_list{padding:0 45px;overflow:hidden}
+.houseing_bd_list li{width:245px;margin-right:38px;margin-bottom:38px;}
+.houseing_bd_list p{height:36px;text-align:center;line-height:36px;background:#eeeeee;
+font-size:14px;color:#333;}
+.houseing_bd_list li:nth-child(4n){margin-right:0;}
+#houseing_detail{margin-top:40px;}
+
+
+
+
+#assort_about,#houseing_same,#houseing_detail,#houseing_about{overflow: hidden;padding-left:20px;}
+.map_left{float:left;width:826px;margin-top:20px;}
+.map_hd ul{width:100%;background-color: #f5f5f5;border:1px solid #eaeaea;overflow: hidden;}
+.map_hd ul li{width:84px;height: 40px;color:#333;text-align: center;line-height: 40px;}
+.map_hd ul li.active{color:#2c82ff}
+#allmap{width:100%;height:495px;border:1px solid #eaeaea;}
+
+.map_right{float:left;width:330px;height:537px;margin-top:20px;padding:0 5px 5px 10px;background-color: #e6e6e6;}
+.result_title{border:1px solid #eaeaea;height: 40px;text-indent: 10px;line-height: 40px;width:100%;background-color: #f5f5f5}
+
+#allmap .anchorBL{display: none}
+
+.houseing_detail-content{padding: 20px 0 0 20px;}
+.houseing_detail-content p{line-height: 40px;color:#000;}
+.houseing_detail-content p span{float: right;margin-right: 360px;width: 200px;}
+.houseing_about_nav{padding:0 20px;margin-top:32px;overflow: hidden;}
+.houseing_about_nav li{width: 266px;margin-right: 25px;}
+.houseing_about_nav li:last-child{margin-right: 0;}
+.houseing_about_nav li a{font-size: 14px;color:#333;}
+.houseing_about_nav li a p:last-child{color:#fc7a18;margin-top:10px;}
+#houseing_same{margin-bottom: 120px;}
+#result{width:315px;height: 492px;background-color: #fff;padding:0 15px;}
+#result .res-data{ background: url("../images/icon.png") no-repeat 2px 4px;position: relative;}
+#result .res-marker{width: 30px;height: 58px;line-height: 26px; text-align: center; color: rgb(255, 255, 255); font-size:12px;font-weight: bold;}
+#result .res-address{width: 170px;}
+#result .title{font-size: 14px;color: #000;font-weight: bold;}
+.clearfix{clear: both;}
+.map_address,.map_distance{color:#333;font-size:14px;}
+.map_distance{position: absolute;right:0;top:15px;}
+ #result li{width: 100%;}
+.map_address{max-height: 29px;line-height: 15px;overflow: hidden}
+.roompic li.active{border:1px solid #fc7a18;}
+.roompic li img{display:block} 
+.room_left .swiper-slide img{width:520px;}
+.album_nav{overflow:hidden;padding:60px 45px 10px 45px;}
+.album_nav li{width:257px;margin-right:28px;text-align:center}
+.album_nav li:last-child{margin-right:0;}
+.album_nav li a{color:#333;}
+.album_nav li a p{line-height:30px;font-size:16px;}
+.reade_more{padding:0 45px;margin-bottom:30px;}
+.reade_more a{display:block;width:100%;height:50px;background:#f8f8f8;text-align:center;line-height:50px;font-size:14px;color:#333;}
+.layer_box{width:500px;height:570px;background:#fff;position:fixed;z-index:999;left:50%;margin-left:-250px;top:50%;margin-top:-285px;}
+.layer_bt{padding:50px;}
+.layer_top{background:#24242a;height:42px;line-height:42px;color:#fc7a18;font-size:16px;text-align:center;width:100%;}
+.layer_box dt{width:100px;text-align:right;float:left;font-size:16px;color:#333;}
+.layer_box dd{float:left;}
+.layer_box dl{overflow:hidden;margin-bottom:30px;}
+.layer_box .layer_list dt{height:40px;line-height:40px;}
+.layer_list dd input{width:300px;height:40px;border:1px solid #bdbdbf;box-sizing:border-box;text-indent:10px;font-size:13px;}
+.asterisk{color:#fc7a18;margin-right:5px;}
+.layer_spe dd textarea{width:300px;height:70px;padding:10px;box-sizing:border-box;border:1px solid #bdbdbf;resize:none;}
+.layer_tip{padding-left:100px;font-size:13px;margin-top:10px;color:#333;font-size:13px;}
+.btn_order{width:300px;height:40px;text-align:center;display:block;margin-left:100px;line-height:40px;color:#fff;background:#fc7a18;
+margin-top:50px;}
+.layer_spe dt{height:70px;line-height:70px;}

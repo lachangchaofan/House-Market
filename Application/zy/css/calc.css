@@ -1,0 +1,41 @@
+.f26{ font-size:26px; }
+.f16{ font-size:16px; }
+#pop_calc{ position:fixed; width:100%; height:100%; background-color:rgba(0, 0, 0, .8); z-index:999;}
+.calc_content{ position:fixed; top:50%; left:50%; margin-top:-335px; margin-left:-600px; height:670px; background-color:#FFF; }
+/*calc_left*/
+.calc_left{ position:absolute; top:10%; right:50%; left:113px; height:80%; border-right:4px solid #F6F6F6; }
+.calc_left:after{ position:absolute; top:50%; right:-23px; width:0; height:0; border-width:10px; border-style:solid; border-color:transparent transparent transparent #F6F6F6; content:" "; }
+.calc_left .f26{ color:#FC7A18; margin-bottom:20px; }
+.calc_left .total-price dd:after,.calc_left .fund-credit dd:after,.calc_left .business-credit dd:after{content:'万'; position:relative;left:-30px;}
+.calc_left .credit-rate i{font-size:20px; margin-left:5px; color:#b0b0b0;}
+.calc_left dl{ position:relative; height:60px; line-height:60px; }
+.calc_left dl input[type='text']{ width:297px; height:40px; }
+.calc_left input[type='submit']{ display:block; margin:50px auto; width:135px; height:41px; border:1px solid transparent; border-radius:5px; background-color:#FC7A18; color:#FFF; font-size:16px; cursor:pointer; }
+.cf:after{ display:block; clear:both; height:0; content:""; }
+.calc_left dt{ float:left; width:110px; color:#868686; }
+.calc_left dd{ float:left; }
+.calc_left dd input{ font-size:16px; }
+.credit-rate .tag-options li{ width:177px;}
+.credit-rate .tag-select{ width:177px; float:left;}
+dl.credit-rate .select-style input{ width:107px; margin-top:10px; margin-left:13px; padding-left:16px;}
+.credit-rate dd:after{content:"%"; position:absolute;right:90px;top:0;}
+/*calc_right*/
+.calc_right{ position:absolute; top:10%; left:735px; width:340px; height:80%; }
+.calc_right .tab-click dt{ width:50%; height:44px; border-bottom:4px solid #868686; color:#868686; line-height:44px; cursor:pointer; }
+.calc_right .tab-click .curr{ border-bottom:4px solid #FC7A18; }
+.calc_right>ul>li{ float:none;}
+.calc_right .img{ color:#868686;}
+.calc_right img{ margin-top:98px; }
+.calc_right .calc{ margin-top:30px;}
+.calc_right .calc dl{ height:60px; line-height:60px; border-bottom:1px solid #cccccc; padding:0 25px;}
+.calc_right .calc dt,.calc_right .calc dd{ width:50%;}
+.calc_right .calc dd{color:#868686;}
+.calc_right .calc .total-money span{color:#3a3a3a; padding:0;}
+/*select*/
+.tag-select{ position:relative; margin-top:10px; padding-left:16px; width:297px; height:40px; border:1px solid #868686; background-color:#E2E2E2; color:#3A3A3A; line-height:40px; }
+.tag-select i{ position:absolute; top:50%; right:5%; margin-top:-8px; color:#3A3A3A; font-size:16px; }
+.tag-options{ position:absolute; top:50px; z-index:10; width:297px; }
+.tag-options li{ z-index:10; margin-top:-1px; padding-left:16px; width:297px; height:40px; border:1px solid #868686; background-color:#FFF; color:#3A3A3A; line-height:40px; }
+/*tab*/
+.tab-con{ display:none;}
+.curr{ display:block;}

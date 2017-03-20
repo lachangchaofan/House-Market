@@ -1,0 +1,53 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+    <title>东莞市近一个月各区域住宅成交均价及环比涨幅</title>
+</head>
+<link rel="stylesheet" href="css/style.css"/>
+<body>
+
+        <div class="map_tips"></div>
+        <div class="map_center"></div>
+
+        <div class="map_center_bottom">
+            <div class="map_cityStats"><img src="images/map_cityStats.png" alt=""/></div>
+            <div class="map_posBlock map_guangzhou">广州</div>
+            <div class="map_posBlock map_huizhou">惠州</div>
+            <div class="map_posBlock map_shenzhen">深圳</div>
+
+            <div class="map_posBlock map_allTitle"> 东莞市近一个月各区域住宅均价环比变化情况</div>
+            <div class="map_center_font">数据来源：东莞市瑞城搜商务信息服务有限公司</div>
+            <div class="map_dataTable">
+                <div class="map_dataTable_li">
+                    <span class="map_dataTable_redBlock"></span>
+                    <span class="map_dataTable_fontBlock">代表环比上涨的区域</span>
+                </div>
+                <div class="map_dataTable_li">
+                    <span class="map_dataTable_greenBlock"></span>
+                    <span class="map_dataTable_fontBlock">代表环比下滑的区域</span>
+                </div>
+                <div class="map_dataTable_li_center">
+                    单位：元/m² ; 环比（%）
+                </div>
+            </div>
+        </div>
+
+
+</body>
+</html>
+<script type="text/javascript" src="js/sea.js"></script>
+<script type="text/javascript" src="js/config.js"></script>
+<script type="text/javascript">
+    seajs.use("main",function(callback){
+
+        $(document).ready(function () {
+            callback.init("./");   //这里参数填写域名
+        })
+
+    });
+
+</script>
+
+
+

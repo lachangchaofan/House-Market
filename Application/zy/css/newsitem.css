@@ -1,0 +1,17 @@
+.show-img{margin: 75px auto;width: 1200px;height: 220px}
+.show-img li:first-child{margin-left: 0px}
+.show-img li{width: 290px;margin-left:10px;float: left;height: 220px;position: relative;overflow: hidden}
+.show-img li a{width: 100%;height: 100%;display: inline-block}
+.show-img li img{width: 290px;height: 220px}
+.show-img li p.show-foot{width: 100%;position: absolute;bottom:0px;height: 55px;background: rgba(0,0,0,0.5);line-height: 55px;color:white;padding:0px 10px 0 10px}
+.show-img li .right{float: right}
+.show-text{position:absolute;width:100%;height:100%;background: rgba(0,0,0,0.7);display: none;bottom:0px;padding: 0px 10px 0 10px}
+.show-img .right{float: right;display: inline-block;width: auto}
+.show-img .first{margin: 25px 0 15px 0;color: white;font-size: 15px;height: 20px;line-height: 20px;}
+.show-img .first span{color: white}
+.show-text p{margin-bottom: 10px;color: darkgray}
+.show-img p span{color: darkgray}
+.show-img p:last-child{color: white;font-size: 12px}
+.show-img p:last-child span{color: white;}
+.show-img a{width: 290px;height: 220px;display: inline-block}
+.cf:after{ clear: both; overflow: hidden; height: 0; content: ''; display: block; }

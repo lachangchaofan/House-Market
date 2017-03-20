@@ -1,0 +1,207 @@
+.mymsg{padding:30px 150px 60px 100px;}
+.mymsg_top{height:51px;line-height:50px;border-bottom:1px solid #dadada}
+.mymsg_top span{display:inline-block;width:75px;text-align:center;height:48px;border-bottom:2px solid transparent;
+font-size:13px;color:#333;line-height:48px;}
+.mymsg_top span.active{color:#fc7a18;border-color:#fc7a18;}
+.mymsg_top .edit{float:right}
+.system_nav{margin-top:40px;}
+.system_nav li{height:60px;line-height:60px;border-bottom:1px solid #dadada;font-size:13px;color:#333;float:none;}
+.system_nav a{color:#333}
+.system_nav li a:hover,.system_nav li a:hover span{color:#fc7a18;}
+.system_nav li span{float:right;color:#666;margin-right:10px;}
+
+.help_user{margin-top:30px;font-size:13px;color；#333;}
+.help_user dl{margin-bottom:20px;clear:both;height:36px;line-height:36px;}	
+.help_user dl dt{float:left;width:100px;text-align:left;}
+.help_user dl dd input{border:1px solid #cacaca;box-sizing:border-box;height:36px;line-height:36px;
+display:inline-block;width:120px;text-indent:10px;}
+.help_user dl .need input{width:160px;}
+.help_user dl dd{float:left;}
+.help_user .select ul li{height:30px;line-height:30px;}
+.help_user .select ul li a{height:30px;text-align:center;}
+.help_user .select .cite{text-align:center;width:120px;}
+.help_user .select ul{width:120px;}
+.help_user .select{position:static}
+.tel span{color:#fc7a18;margin-left:20px;}
+.msg_submit{margin-top:80px;margin-left:90px;width:250px;font-size:13px;text-align:center;}
+.msg_submit input{width:190px;height:38px;text-align:center;line-height:38px;border-radius:5px;color:#fff;
+background:#fc7a18}
+.msg_submit p{color:#666;margin-top:20px;}
+.exclusive{margin-top:20px;}
+.exclusive p,.contact_us p{font-size:12px;color:#333;line-height:32px;}
+.mt35{margin-top:35px;}
+.monthly{margin-top:40px;font-size:12px;}
+.monthly_news{margin-bottom:60px;overflow:hidden}
+.monthly_news_left{float:left;width:176px;height:176px;text-align:center;border:1px solid #bdbdbf;box-sizing:border-box;}
+.monthly_news_left img{display:block;margin:30px auto 15px;}
+.monthly_news_left p{line-height:20px;}
+.monthly_news_right{margin-left:60px;float:left;width:490px;padding:20px 0;}
+.monthly_news_right p{line-height:30px;}
+.contact_us{padding-left:15px;}
+
+.contact_us .justify{letter-spacing:2em;margin-right:-2em }
+.justify_fs span{letter-spacing:2em;margin-right:-2em }
+.suggest{margin-top:30px;width:752px;height:325px;}
+.suggest textarea{width:100%;height:100%;resize:none;padding:10px;border:1px solid #dadada}
+.suggest_sub{width:135px;height:42px;text-align:center;color:#fff;background:#fc7a18;font-size:13px;border-radius:5px;
+display:block;margin:78px auto}
+.collect{padding:30px;}
+.ml20{margin-left:20px;}
+.connect_bd_list{margin-top:30px;}
+.connect_left{float:left;width:157px;text-align:center;margin-right:106px;}
+.connect_left img{width:88px;margin:50px auto 20px;display:block;}
+.connect_left p{font-size:12px;color:#666;line-height:28px;}
+.company_name{font-size:13px;color:#333;}
+.house_resouce{font-size:13px;}
+.house_resouce span{color:#ed8787;line-height:36px;}
+.house_resouce a{float:right;color:#fc7a18;display:inline-block;height:36px;line-height:36px;}
+.door_nav{overflow:hidden}
+.door_nav li{width:148px;margin-right:20px;}
+.door_nav li:last-child{margin-right:0;}
+.door_nav li a{font-size:13px;color:#333;}
+.door_nav li a p{line-height:26px;}
+.door_nav li a p:last-child{color:#ca3441;font-weight:bold;}
+.connect_item{margin-bottom:30px;border-bottom:1px solid #dadada;padding-bottom:30px;}
+.collect_pagination{float:right;}
+.collect_pagination li a{display:block;width:26px;height:26px;text-align:center;line-height:26px;color:#333;font-size:12px;}
+.collect_pagination li a.active{color:#fff;background:#fc7a18;}
+.collect_pagination .page a{width:60px;}
+
+
+.new_house{padding:35px 65px;}
+.new_house_list{padding:30px 10px;margin-bottom:15px;border-bottom:1px solid #dadada;}
+.new_house_pic,.new_house_info{float:left;}
+.new_house_right{float:right;}
+.new_house_pic{width:180px;}
+.new_house_top{}
+.new_house_info{margin-left:20px;}
+.new_house_info .new_house_title{font-size:16px;color:#000;}
+.new_house_title span{display:inline-block;width:50px;position:relative;text-align:center;background:#ed2501;height:26px;
+line-height:26px;color:#fff;margin-left:15px;}
+.new_house_info .new_house_title span:before{display:block;content:"";position:absolute;left:-10px;top:8px;
+width: 0;height: 0;border-top: 5px solid transparent;border-right: 10px solid #ed2501;
+border-bottom: 5px solid transparent;}
+.new_house_info p{font-size:13px;color:#333;line-height:26px;height:26px;}
+.new_house_footer{margin-top:10px;}
+.new_house_footer span{display:inline-block;padding:0 10px;}
+.near_subway{border:1px solid #fc7a18;color:#fc7a18;margin-right:5px;}
+.buy_num{border:1px solid #7ebf8b;color:#7ebf8b;}
+.new_house_bt{clear:both;}
+.new_house_map{margin-left:5px;}
+.door_type{width:350px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
+.new_house_right{padding:40px 0;width:200px;text-align:center;}
+.new_house_right .new_house_area{font-size:16px;color:#fc7a18;}
+.new_house_right .new_house_area span{font-size:26px;font-weight:bold;margin-right:3px;}	
+.new_house_phone{color:#666;font-weight:bold;margin-top:10px;font-size:13px;}
+.new_house_phone img{margin-right:5px;}	
+
+.new_house_bt{padding-top:20px;font-size:13px;color:#666;}
+.isdiscount{padding:3px;color:#fff;background:#fe0101;margin-right:10px;}
+.new_house_bt a{color:#43adeb;margin-left:20px;}
+.mt20{margin-top:20px;}
+/*手机验证*/
+.security{padding:50px 100px 50px 80px}
+.security_content .input_phone{margin-top:50px;}
+.security_content dl{height:36px;overflow:hidden;margin-bottom:35px;}
+.security_content dl dt{width:100px;height:36px;line-height:36px;color:#666;font-size:13px;text-align:right;float:left;}
+.security_content dd{float:left;height:36px;}
+.security_content dd input{width:212px;height:36px;border:1px solid #ccc;float:left;text-indent:10px}
+.get_code{float:left;display:inline-block;height:36px;width:100px;text-align:center;line-height:36px;font-size:13px;color:#333;
+border:1px solid #ccc;margin-left:10px;cursor:pointer;}
+.modify_btn{display:inline-block;width:120px;text-align:center;height:36px;line-height:36px;background:#fc7a18;color:#fff;font-size:13px;
+margin-left:115px;}
+.ff5f4f{color:#ff5f4f}
+.modify_pwd dl{margin-bottom:20px;}
+
+/*基本信息*/
+.ml60{margin-left:60px;}
+#base_info input{width:124px;border-radius:inherit;font-size:16px;}
+.base_info dl dt{text-align:right;padding-right:10px}
+.birth dd  form{float:left;}
+.detailed_address textarea{width:380px;height:50px;padding:10px;font-size:12px;resize:none;border:1px solid #cacaca}
+.contact_way  dl dt{height:36px;}
+.contact_way  dl dd input{width:150px;}
+.contact_way #base_info{margin-left:36px;}
+.prompt{margin-top:30px;color:#999;font-size:12px;padding-left:30px;}
+.file_headerImg img,.edit_headerImg dt,.edit_headerImg dd{float:left;}
+.file_headerImg .file_upload{float:left;}
+.edit_headerImg{font-size:13px;margin-top:60px;}
+#upload_header{width:70px;text-align:center;height:24px;color:#fff;line-height:24px;background:#00a0e9;position:relative;
+left:115px;top:20px;}
+#upload_header input{width:70px;height:24px;opacity:0;position:absolute;left:0;top:0;}
+.file_headerImg dd{position:relative}
+.file_headerImg img{position:absolute;left:20px;top:-10px;width:85px;height:85px;}
+.upload_limit{margin-left:115px;margin-top:50px;color:#666;font-size:12px;}
+.edit_headerImg dl{overflow:hidden;margin-bottom:50px;}
+.edit_headerImg dt{width:90px;text-align:right;height:36px;}
+.save_header{width:120px;height:36px;line-height:36px;text-align:center;color:#fff;background:#fc7a18;font-size:16px;float:left;margin-left:20px;
+cursor:pointer}
+.reset_upload{float:left;width:120px;margin-left:10px;height:36px;line-height:36px;text-align:center;font-size:16px;
+color:#333;position:relative;}
+.reset_upload input{width:120px;height:36px;opacity:0;position:absolute;left:0;top:0;z-index:888;}
+
+/*我的钱包*/
+.wallet{padding:50px 85px 50px 80px;}
+.wallet_content{padding:50px 20px 10px 20px;font-size: 13px;}
+.wallet_hd .balance{font-size:27px;}
+.wallet_hd{color:#333;height:36px;line-height: 36px;margin-bottom: 40px;}
+.recharge{display: inline-block;width:100px;height:36px;line-height: 36px;color:#fff;text-align: center;background-color: #fc7a18;color:#fff;
+margin-left:25px;margin-right:40px;}
+.wallet_list{float:none;height:40px;line-height: 40px;padding:0 20px;}
+.wallet_title{padding:0;background-color: #f3f2f2;}
+.wallet_title ul{padding:0 20px;}
+.wallet_nav li ul{border-bottom:1px solid #ebebeb;width:100%;overflow: hidden;}
+.wallet_nav{width:766px;border:1px solid #dfdfdf;box-sizing:border-box;}
+.wallet_nav .wallet_title,.wallet_nav .wallet_list:last-child{border:none;}
+.wallet_list li{text-align: center;color:#333;}
+.wallet_list li:nth-child(1){width:100px;}
+.wallet_list li:nth-child(2){width:190px;}
+.wallet_list li:nth-child(3){width:100px;}
+.wallet_list li:nth-child(4){width:180px;}
+.wallet_list li:nth-child(5){width:154px;}
+.wallet_pagination{margin-top:10px;height: 24px;text-align: right}
+.wallet_pagination ul{display: inline-block;}
+.wallet_pagination ul li:first-child,.wallet_pagination ul li:last-child{width:62px;height:24px;text-align: center;
+	line-height: 22px;border:1px solid #ccc;color:#999;color:#999;border-radius:5px;box-sizing:border-box;}
+.wallet_pagination .pagenum{color:#333;cursor: pointer;margin:0 10px;line-height: 24px;}
+.wallet_pagination .pagenum:hover{color:#fc7a18;}
+.wallet_tip{line-height: 30px;color:#999;}
+.mt20{margin-top:20px;}
+.paycheck{padding-right:60px;}
+.paycheck  span{width:100px;}
+.paycheck_content{width:828px;padding-left:25px;padding-top:10px;box-sizing:border-box;margin-top:30px;border:1px solid #ccc;font-size:13px;color:#333;}
+.paycheck_title{line-height:30px;margin-bottom:30px;}
+.paycheck_list{margin-bottom:10px;overflow:hidden}
+.paycheck_list dt{width:100px;text-align:right;height:26px;line-height:26px;float:left;}
+.paycheck_list dd{float:left;height:26px;line-height:26px;}
+.paycheck_list dd input{float:left;display:inline-block;height:26px;width:120px;text-indent:10px;border:1px solid #ccc;box-sizing:border-box;margin-right:10px;}
+.paycheck_tip{margin-left:100px;font-size:12px;color:#999;}
+.paycheck_time{margin-left:100px;border:1px solid #ccc;width:520px;color:#333;font-size:12px;height:26px;box-sizing:border-box;margin-top:5px;
+line-height:24px;}
+.paycheck_time img{width:16px;float:left;margin-top:4px;margin-right:5px;margin-left:10px;}
+#next_step{margin:25px 0 45px 100px;}
+.paycheck_footer {margin-left:20px;margin-top:10px;}
+.paycheck_footer p{line-height:30px;font-size:12px;color:#666;}
+.online_payment{font-size:13px;color:#333;margin-top:40px;}
+.pay_time{margin-top:5px;color:#666;height:26px;line-height:26px;}
+.pay_time span{float:right;height:26px;line-height:26px;width:200px;display:inline-block;}
+.pay_time span i{font-style:normal;color:#ee1212;}
+.pay_way{padding:30px 0 35px 25px;border:1px solid #ccc;width:828px;margin-top:10px;}
+.pay_way dl{height:44px;}
+.pay_way dl dt{width:115px;float:left;height:44px;line-height:44px;}
+.pay_way dl dd{float:left;margin-left:20px;}
+.pay_selected{float:left;height:44px;position:relative;}
+.pay_selected img{position:absolute;z-index:5;}
+.zfb img{left:30px;top:8px;}
+.wxpay img{left:17px;top:10px;width:75%;}
+.wy img{left:30px;top:8px;}
+.pay_way .pay_selected{width:152px;height:44px;margin-left:-1px;}
+.pay_way  .active{background-image:url("../images/pay_select.png");}
+.quick_pay{width:248px;margin:30px auto;text-align:center;font-size:13px;color:#333;}
+.suc_content{width:270px;text-align:center;margin:120px auto;}
+.suc_content .suc_top{width:270px;height:64px;}
+.suc_top img,.suc_top p{float:left;}
+.suc_top img{margin-left:20px;}
+.suc_top p{margin-top:18px;font-size:18px;}
+.recharge_money span,.residue_money span{color:#ee1212}
+.recharge_money,.residue_money{line-height:30px;}

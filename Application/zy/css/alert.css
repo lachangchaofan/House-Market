@@ -1,0 +1,97 @@
+/* CSS Document */
+body{
+  font-size: 16px;
+  color: black;
+  margin: 0;
+  padding: 0;
+  font-family: 微软雅黑;
+}
+h1,h2,h3,h4,h5,h6,p,div,dl,dd,dt,ul,li,html,body,img{
+  margin: 0;
+  padding: 0;
+}
+ul li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+.main{
+	background: #fafafa;
+	width:1200px;
+	height:950px;
+	margin:0 auto;
+	border:solid 1px;
+}
+.top{
+	text-align: center;
+}
+.title{
+	text-align: center;
+}
+.aside{
+	margin-left: 50px;
+	margin-top:70px;
+	width:170px;
+	height:735px;
+}
+.nav{
+	background: white;
+	height:610px;
+	width:170px;
+}
+.nav ul li{
+	height:60px;
+	width: 170px;
+	text-align: center;
+	line-height:55px ;
+	border-bottom: solid 1px lightgray;
+}
+.nav ul li a{
+	color: black;
+}
+.area{
+	width:170px;
+	height:50px;
+	background: white;
+	margin-top: 13px;
+	text-align: center;
+	line-height:50px;
+}
+.area a{
+	color: #fc7a18;
+}
+.content{
+	float: right;
+	width:900px;
+	height:735px;
+	background:white;
+	margin-top:70px;
+	margin-right: 50px;
+}
+.content h4{
+	margin-top: 10px;
+	margin-left: 25px;
+	color:#fc7a18;
+	margin-bottom: 25px;
+}
+.logo img{
+	float:left;
+	margin-top: 11px;
+	margin-left: 10px;
+}
+.text{
+	padding: 35px;
+	font-size: 14px;
+}
+.text p{
+	margin-bottom: 45px;
+}
+.text {
+		display: none;
+	}
+.show {
+		display: block;
+	}
+.nav li.current {background-color:#00a0e9; border-color: #55C4B8; color: #FFF; position: relative;}
+.nav li.current a {color: #FFF;}

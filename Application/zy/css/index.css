@@ -1,0 +1,88 @@
+/* CSS Document */
+#content1{ width: 1200px; margin: 0 auto; }
+.select{ float: right; margin-right: 160px; margin-top: 40px; }
+.select p span{ font-size: 12px; border: solid 1px #EEE; color: #999; padding: 1px; }
+#search{ background-color: #FFF; float: right; margin-right: 390px; margin-top: 50px; }
+#search input{ width: 385px; height: 35px; border: 1px solid #F7C49E; float: left }
+#search .search-btn{ width: 70px; height: 35px; line-height: 35px; margin-left: -70px; background: #FC7A18; word-spacing: 2px; color: white; font-size: 13.5px; border: none }
+.search-img{ background: url(../images/search.png) no-repeat 15px center; text-indent: 45px }
+#content1 .shangbiao{ margin-left: 43px; padding-top: 15px; }
+#article{ margin: 0 auto; width: 1200px; margin-top: 61px; }
+.section0{ width: 290px; height: 37px; background: #EEE; float: right; margin-right: 47px; }
+.section0 .clear{ float: right; padding: 8px; }
+.section0 .clear a{ color: #FC7A18 }
+.section0 .see{ padding: 8px; }
+.section0 .see a{ color: black; }
+.section1{ float: right; margin-top: 45px; margin-right: -290px; }
+.section2{ width: 797px; height: 108px; border: 1px solid #EEE; margin-left: 43px; padding-top: 28px; }
+.section2 ul li{  margin-left: 22px; margin-right: -15px; padding: 2px 5px; line-height: 19px; height: 28px; }
+.section2 ul li.active{ background: #FC7A18; }
+.section2 ul li.active > a{ color: #FFF; }
+.section2 ul li a{ font-size: 12px; color: black; }
+.section3 ul{ margin-left: 50px;}
+.section4{ width: 800px; height: 170px; background: #EEE; margin-top: 20px; margin-left: 43px;
+    position: relative;
+    }
+.section4 .section5 ul li{ width: 145px; height: 35px; background: #FC7A18; margin-top: 60px; float: right; margin-right: 25px; }
+.section4 .section5 ul li a{ color: black; margin-left: 17px; position: absolute; margin-top: 5px; }
+.section4 .section7{ height: 170px; width: 600px; }
+.section4 .section7 ul li{ float: left; margin-left: 34px; margin-right: 50px; margin-top: 16px; }
+.section4 .section7 ul li a{ color: #FC7A18; font-size: 14px; }
+.section4 .section7 span{ color: #F9974D; font-size: 12px; }
+.section4 .section6{ float: right; margin-right: 420px; margin-top: 89px; font-size: 12px; }
+.section4 .section6 a{ color: black; }
+.section4 .section7 ul li span{ font-size: 12px; color: black; }
+.section8{ width: 800px; height: 170px; border: solid 1px #EEE; margin-top: 20px; margin-left: 43px; }
+.section8 .section5 ul li{ width: 145px; height: 35px; background: #FC7A18; margin-top: 60px; float: right; margin-right: 25px; }
+.section8 .section5 ul li a{ color: black; margin-left: 17px; position: absolute; margin-top: 5px; }
+.section8 .section7{ height: 170px; width: 600px; }
+.section8 .section7 ul li{ float: left; margin-left: 34px; margin-right: 50px; margin-top: 16px; }
+.section8 .section7 ul li a{ color: #F9974D;; font-size: 14px; }
+.section8 .section7 span{ color: black; font-size: 12px; }
+.section8 .section6{ float: right; margin-right: 300px; margin-top: 88px; font-size: 12px; }
+.section8 .section6 a{ color: black; }
+.section8 .section7 ul li span{ font-size: 12px; color: black; }
+.section4 .section7 ul li span{ font-size: 12px; color: black; }
+.section9{ width: 800px; height: 170px; border: 1px solid #EEE; margin-top: 20px; margin-left: 43px; }
+.section9 .section5 ul li{ width: 145px; height: 35px; background: #FC7A18; margin-top: 60px; float: right; margin-right: 25px; }
+.section9 .section5 ul li a{ color: black; margin-left: 17px; position: absolute; margin-top: 5px; }
+.section9 .section7{ height: 170px; width: 600px; }
+.section9 .section7 ul li{ float: left; margin-left: 34px; margin-right: 85px; margin-top: 16px; }
+.section9 .section7 ul li a{ color: #F9974D; font-size: 14px; }
+.section9 .section7 span{ color: black; font-size: 12px; }
+.section9 .section6{ float: right; margin-right: 220px; margin-top: 88px; font-size: 12px; }
+.section9 .section6 a{ color: black; }
+.section9 .section7 ul li span{ font-size: 12px; color: black; }
+.section10{ width: 800px; height: 170px; border: 1px solid #EEE; margin-top: 20px; margin-left: 43px; }
+.section10 .section5 ul li{ width: 145px; height: 35px; background: #FC7A18; margin-top: 60px; float: right; margin-right: 25px; }
+.section10 .section5 ul li a{ color: black; margin-left: 17px; position: absolute; margin-top: 5px; }
+.section10 .section7{ height: 170px; width: 600px; }
+.section10 .section7 ul li{ float: left; margin-left: 34px; margin-right: 50px; margin-top: 16px; }
+.section10 .section7 ul li a{ color: #F9974D; font-size: 14px; }
+.section10 .section7 span{ color: fond-size: 12px; }
+.section10 .section6{ float: right; margin-right: 110px; margin-top: 92px; }
+.section10 .section7 ul li span{ font-size: 12px; color: black; }
+.xia{ height: 98px; }
+.section11{ width: 800px; height: 170px; border: solid 1px #EEE; margin-top: 20px; margin-left: 43px; }
+.section11.section5 ul li{ width: 145px; height: 35px; background: #FC7A18; margin-top: 60px; float: right; margin-right: 25px; }
+.section11 .section5 ul li a{ color: black; margin-left: 17px; position: absolute; margin-top: 5px; }
+.section11 .section7{ height: 170px; width: 600px; }
+.section11 .section7 ul li{ float: left; margin-left: 34px; margin-right: 50px; margin-top: 16px; }
+.section11 .section7 ul li a{ color: #F9974D; font-size: 14px; }
+.section11 .section7 span{ color: black; color: black; }
+.section11 .section6{ float: right; margin-right: 410px; margin-top: 89px; font-size: 12px; }
+.section11 .section6 a{ color: black; }
+.section11 .section7 ul li span{ font-size: 12px; color: black; }
+/*-----------*/
+#link{
+    display: block;
+    width: 145px;
+    height: 35px;
+    background: #FC7A18;
+    position: absolute;
+    top: 60px;
+    right: 25px;
+    color: #FFF;
+    line-height: 35px;
+    text-align: center;
+    }

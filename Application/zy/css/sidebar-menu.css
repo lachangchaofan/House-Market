@@ -1,0 +1,66 @@
+.main-sidebar{width:200px;float:left;overflow:hidden;clear:both;min-height:500px;}
+.sidebar_title span{color:#333;}
+.sidebar-menu{border:1px solid #dadada;text-align:center;padding-bottom: 30px;}
+.sidebar-menu  li {position:relative;float:none}
+.sidebar-menu  li  a.sidebar_title{display:block;height:48px;text-align:center;width: 100%;}
+.sidebar-menu  li  a.sidebar_title{background-color: #f6f4f5;}
+.center{display:inline-block;}
+.sidebar-menu  li  a  .pull-right {display:inline-block;width:24px;height:48px;display:inline-block;
+background:url("../images/icon_up.png") no-repeat center center/100% auto;float:left;margin-left:20px;}
+.sidebar-menu  li  a  span{display:inline-block;height:48px;line-height:48px;float:left}
+.sidebar-menu li.active  a  .pull-right {transform:rotate(-180deg);}
+.sidebar-menu li.active  .treeview-menu {display:block;}
+/* .sidebar-menu .treeview-menu {display:none;} */
+.sidebar-menu .personal .treeview-menu {display:block;}
+.sidebar-menu .treeview-menu .treeview-menu {padding-left:20px;}
+.sidebar-menu .treeview-menu  li {float:none}
+.sidebar-menu .treeview-menu  li  a {display:block;font-size:14px;color:#666;width:100%;text-align:center;line-height:36px;height:36px;}
+.sidebar-menu .treeview-menu  li  a:hover,.sidebar-menu .treeview-menu  li  a.active{color:#fc7a18}
+.personal_center{width：100%;}
+.personal_center_top{height:162px;border-bottom:2px solid #fc7a18;position:relative}
+.set{position:absolute;bottom:20px;right:20px;}
+.set img,.set span{float:left;}
+.set img{margin-top:2px;margin-right:5px;}
+.userimg{margin-top:45px;margin-left:38px;float:left}
+.username{float:left;line-height:180px;margin-left:35px;}
+.user_center{width:100%;overflow:hidden;margin-bottom:185px;}
+.main_right{float:left;width:980px;border:1px solid #dadada;margin-left:20px;box-sizing:border-box;
+padding:50px 0 72px 95px;}
+.noTip{width:324px;margin:120px auto 300px;}
+.noTip img{float:left;margin-right:20px;}
+.noTip p{font-size:12px;line-height:30px;}
+.noTip a{color:#fc7a18;}
+.set_title{font-size:14px;color:#333;text-indent: 10px }
+.recommend{margin-top:15px;padding-left:10px;border-top:1px solid #e6e6e6;padding-top: 25px;width:750px;}
+.recommend_top{overflow:hidden;margin-bottom:25px;}
+.recommend_top img{float:left}
+.recommend_right{margin-left:20px;float:left;width:480px}
+.recommend_right p{line-height:33px;font-size:12px;#333;}
+.recommend_right .recommend_title{font-size:16px;}
+
+.recommend_right .fc{color:#666;}
+.recommend_footer{clear:both;}
+.recommend_footer span,.recommend_footer a,.recommend_footer input{float:left;display:inline-block;
+height:30px;line-height:30px;font-size:12px;color:#333;}
+.recommend_footer input{width:110px;margin-right:10px;}
+.recommend_footer a{background:#e76e12;color:#fff;text-align:center;width:95px;border-radius:5px;
+	font-size:14px;margin-right:13px;}
+.main_right .order p{line-height:28px;}
+.poi{position:relative}
+.menu-swiper{width:774px;margin:0;padding-top:30px;border-top:1px solid #e6e6e6;padding-left:10px;}
+.menu-swiper .swiper-wrapper{}
+.menu-swiper ul{}
+.menu-swiper li{text-align:center;margin-right:38px;padding:18px;background-color: #f3f2f2;border:1px solid #e8e7e7;}
+.menu-swiper li:last-child{margin-right:0;}
+.menu-swiper li a{color:#333;}
+.menu_title{margin-top:15px;}
+.menu_title span{color:#fc7a18;}
+.menu_price{margin-bottom:15px;font-size:14px;}
+.menu_price span{color:#ed8787}
+.enlist{display:inline-block;width:95px;height:30px;color:#fff;text-align:center;line-height:30px;
+border-radius:5px;background:#fc7a18;font-size:14px;}
+.other{margin-top:70px;margin-bottom: 20px;}
+.other a{float:right;color:#333;margin-right:135px;}
+.poi .swiper-button-next, .poi .swiper-container-rtl .swiper-button-prev{right:70px;background-image:url("../images/icon_next.png");width:18px;height:30px;background-size: 18px 30px;}
+.poi .swiper-button-prev, .poi .swiper-container-rtl .swiper-button-next{left:-30px;background-image:url("../images/icon_pre.png");width:18px;height:30px;background-size: 18px 30px;}
+.poi .swiper-button-next, .poi .swiper-button-prev{margin-top:10px;}

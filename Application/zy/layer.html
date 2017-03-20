@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+<head>
+<title>开始使用layer</title>
+<meta charset="utf-8">
+<link rel="stylesheet" href="css/layer.css" />
+
+<style type="text/css"> 
+	.layer_content{width:1200px;height:500px;background:#000;color:#000;}
+</style>	
+</head>
+<body>
+<button id="test1">小小提示层</button>
+<script src="js/jquery.js"></script>
+<script src="js/layer.js"></script>
+<script>
+
+//弹出一个页面层
+$('#test1').on('click', function(){
+  layer.open({
+	  type: 1,
+	  shadeClose: true, //点击遮罩关闭
+	  content: '<div class="layer_content" style="padding:20px;">自定义内容</div>'
+  });
+});
+</script>
+
+
+</body>
+</html>

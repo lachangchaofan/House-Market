@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>数据岛</title>
+    <link rel="stylesheet" type="text/css" href="css/reset.css"/>
+	<link rel="stylesheet" type="text/css" href="css/swiper-3.4.0.min.css"/>
+    <link rel="stylesheet" type="text/css" href="css/style.css"/>
+    <link rel="stylesheet" type="text/css" href="css/newslist.css"/>
+    <link rel="stylesheet" type="text/css" href="css/search.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css"/>
+    <script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/swiper-3.4.0.min.js"></script>
+    <script src="js/echarts.js"></script>
+    <script src="js/base.js"></script>
+    <script>
+        $(document).ready(function () {
+            $(".news_info").each(function () {
+                var maxwidth = 60;
+                if ($(this).text().length > maxwidth) {
+                    $(this).text($(this).text().substring(0 , maxwidth));
+                    $(this).html($(this).html() + '...');
+                }
+            });
+        });
+    </script>
+</head>
+<body>
+<div id="new_header">
+    <div class="container header_container">
+        <img src="images/newhome.png" alt=""/>
+        <div class="header_right"><a href="#">登录</a><span>|</span><a href="#">注册</a></div>
+        <ul class="header_nav">
+            <li><a href="#">首页</a></li>
+            <li><a href="#">平台超</a></li>
+            <li><a href="#">公共超</a></li>
+            <li><a href="#">财富超</a></li>
+            <li><a href="#">新闻岛</a></li>
+            <li><a class="active" href="#">数据岛</a></li>
+        </ul>
+    </div>
+</div>
+<div id="new_top">
+    <div class="container">
+        <ul class="top_nav">
+            <li><a href="">楼盘搜</a></li>
+            <li><a class="active" href="">区域搜</a></li>
+        </ul>
+    </div>
+</div>
+<div id="search-content">
+    <div class="container">
+        <img src="images/search-title.jpg" alt="">
+    </div>
+</div>
+<div id="search-content1">
+    <div class="container cf">
+        <ul id="search-nav" class="search-nav cf">
+            <li>点击查看城市详情>></li>
+            <li><a class="active" href="#" alt="东莞">东莞</a></li>
+            <li><a href="#" alt="深圳">深圳</a></li>
+            <li><a href="#" alt="惠州">惠州</a></li>
+            <li><a href="#" alt="中山">中山</a></li>
+            <li><a href="#" alt="珠海">珠海</a></li>
+        </ul>
+        <ul class="search-content-list cf">
+            <li>
+                <h3 class="tl">&Gt;<span>珠三角</span>主要城市月度房价涨幅</h3>
+                <p class="tr">数据来源：瑞峰搜商务信息服务有限公司</p>
+                <div class="table-list">
+                    <table id="CityRisePriceTab">
+                        <tr>
+                            <th>城市名称</th>
+                            <th>成交面积(万m²)</th>
+                            <th>成交均价(元/m²)</th>
+                            <th>环比涨幅</th>
+                            <th>同比涨幅</th>
+                        </tr>
+                        <!--<tr>
+                            <td>东菀</td>
+                            <td>1234</td>
+                            <td>11234</td>
+                            <td>-22.78%</td>
+                            <td>-22.78%</td>
+                        </tr>-->
+                    </table>
+                </div>
+            </li>
+            <li>
+                <h3 class="tl">&Gt;<span>深圳</span>近12个月住宅供需量价走势图</h3>
+                <p class="tr">数据来源：瑞峰搜商务信息服务有限公司</p>
+                <div class="table-list">
+                    <div class="map" data-city="深圳" style="width: 400px;height: 240px;"></div>
+                </div>
+            </li>
+            <li>
+                <h3 class="tl">&Gt;<span>东莞</span>近12个月住宅供需量价走势图</h3>
+                <p class="tr">数据来源：瑞峰搜商务信息服务有限公司</p>
+                <div class="table-list">
+                    <div class="map" data-city="东莞" style="width: 400px;height: 240px;"></div>
+                </div>
+            </li>
+            <li>
+                <h3 class="tl">&Gt;<span>惠州</span>近12个月住宅供需量价走势图</h3>
+                <p class="tr">数据来源：瑞峰搜商务信息服务有限公司</p>
+                <div class="table-list">
+                    <div class="map" data-city="惠州" style="width: 400px;height: 240px;"></div>
+                </div>
+            </li>
+            <li>
+                <h3 class="tl">&Gt;<span>中山</span>近12个月住宅供需量价走势图</h3>
+                <p class="tr">数据来源：瑞峰搜商务信息服务有限公司</p>
+                <div class="table-list">
+                    <div class="map" data-city="中山" style="width: 400px;height: 240px;"></div>
+                </div>
+            </li>
+            <li>
+                <h3 class="tl">&Gt;<span>珠海</span>近12个月住宅供需量价走势图</h3>
+                <p class="tr">数据来源：瑞峰搜商务信息服务有限公司</p>
+                <div class="table-list">
+                    <div class="map" data-city="珠海" style="width: 400px;height: 240px;"></div>
+                </div>
+            </li>
+        </ul>
+    </div>
+</div>
+<div class="swiper_animate"> 
+		<div class="swiper-container">
+			<div class="swiper-wrapper">
+				<div class="swiper-slide">
+					<ul class="swiper_nav"> 
+						<li>
+							<a href="#">
+								<div class="face">
+									<img src="images/sd.png">
+								</div>
+								<div class="no-face">
+									<p class="face_title"><span class="tstL">碧桂圆指挥家碧桂圆指挥家</span><span class="tstR">16500元/m2</span> </p>
+									<p class="face_txt mt30">区域：常平火车站</p>
+									<p class="face_txt face_door">主推户型：1房1厅[45m2]，2强21321321</p>
+									<p class="face_bt mt20">地铁沿线/生态宜居/景观居所</p>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<div class="face">
+									<img src="images/sd.png">
+								</div>
+								<div class="no-face">
+									<p class="face_title"><span class="tstL">碧桂圆指挥家碧桂圆指挥家</span><span class="tstR">16500元/m2</span> </p>
+									<p class="face_txt mt30">区域：常平火车站</p>
+									<p class="face_txt face_door">主推户型：1房1厅[45m2]，2强21321321</p>
+									<p class="face_bt mt20">地铁沿线/生态宜居/景观居所</p>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<div class="face">
+									<img src="images/sd.png">
+								</div>
+								<div class="no-face">
+									<p class="face_title"><span class="tstL">碧桂圆指挥家碧桂圆指挥家</span><span class="tstR">16500元/m2</span> </p>
+									<p class="face_txt mt30">区域：常平火车站</p>
+									<p class="face_txt face_door">主推户型：1房1厅[45m2]，2强21321321</p>
+									<p class="face_bt mt20">地铁沿线/生态宜居/景观居所</p>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<div class="face">
+									<img src="images/sd.png">
+								</div>
+								<div class="no-face">
+									<p class="face_title"><span class="tstL">碧桂圆指挥家碧桂圆指挥家</span><span class="tstR">16500元/m2</span> </p>
+									<p class="face_txt mt30">区域：常平火车站</p>
+									<p class="face_txt face_door">主推户型：1房1厅[45m2]，2强21321321</p>
+									<p class="face_bt mt20">地铁沿线/生态宜居/景观居所</p>
+								</div>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>				
+		</div>
+		<div class="swiper-button-next swiper-button-black"></div>
+		<div class="swiper-button-prev swiper-button-black"></div>		
+</div>
+<div id="new_footer">
+    <div class="container">
+        <div class="footer_left fl">
+            <div class="footer_top">
+                <img class='fl' src="images/newhome.png" alt=""/>
+                <div class="fl ml20">
+                    <p class="friendship_link">
+                        <a href="#">关于我们</a>
+                        <span>|</span>
+                        <a href="#">人才招聘</a>
+                        <span>|</span>
+                        <a href="#">联系我们</a>
+                        <span>|</span>
+                        <a href="#">用户协议</a>
+                        <span>|</span>
+                        <a href="#">友情链接</a>
+                        <span>|</span>
+                        <a href="#">网站地图</a>
+                    </p>
+                    <p class="phonenum">
+                        客服热线：<span>400-800-8820</span>（工作时间：9：00-21：00）
+                    </p>
+                </div>
+            </div>
+            <p class="address">版权所有 ©深圳市城市屋超科技有限公司 copyright ©2016 apyfc.com All Rights Rights Reserved 备案号:粤ICP备16079781号</p>
+        </div>
+        <div class="footer_right">
+            <div class="tc fl">
+                <img src="images/wxCode.png" alt=""/>
+                <p>关注优房超微信号</p>
+            </div>
+            <div class="tc ml30 fl">
+                <img src="images/appCode.png" alt=""/>
+                <p>下载优房超APP</p>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="no_data_pop" style="display: none;">
+  <div class="pop_content">
+      <div class="title">www.youfangchao.com上的网页显示：<span class="fr close">X</span></div>
+      <p class="content">数据库升级中，敬请期待……</p>
+      <div class="bottom">
+          <div class="button">确定</div>
+      </div>
+  </div>
+</div>
+<script type="text/javascript">
+    $(function () {
+        $(".newslist_hd ul li").click(function () {
+            var index = $(this).index();
+            $(this).addClass("active").siblings().removeClass("active");
+            $(".newslist_bd .newslist_bd_list").eq(index).show().siblings().hide()
+        });
+    });
+    $('.exclusive_box').mouseover(function () {
+        $(this).addClass('active');
+        var pic = $(this).find("img");
+        var oppsite = pic.attr("src").split('.')[0];
+        pic.attr("src" , oppsite + '_right.png');
+    });
+    $('.exclusive_box').mouseout(function () {
+        $(this).removeClass('active');
+        var pic = $(this).find("img");
+        var right = pic.attr("src").split('_right')[0];
+        pic.attr("src" , right + '.png')
+    });
+    
+    var tableList  = $("table tr") ,
+        listLength = tableList.length;
+    for (var i = 0; i < listLength; i++) {
+        if (i % 2) {
+            tableList.eq(i).css({backgroundColor : '#eaf9ff'})
+        }
+    }
+</script>
+<script src="js/chart.js"></script>
+</body>
+</html>

@@ -1,0 +1,57 @@
+.cf:after{ clear: both; overflow: hidden; height: 0; content: ''; display: block; }
+.new_house_manager{ border: none; padding: 0; }
+.new_house_manager .manager_title{ background-color: #F6F4F5; line-height: 35px; padding-left: 24px; background-image: url(../images/volume_icon.png); background-repeat: no-repeat; background-position: 2px center; font-size: 12px; color: #807E7F; margin-bottom: 15px; }
+.new_house_manager .manager_title span{ color: #FF6601; }
+.new_house_manager .manager_list{ border: 1px solid #DFDFE0; margin-bottom: 22px; }
+.new_house_manager .manager_list .list_title{ line-height: 52px; border-bottom: 1px solid #DFDFE0; color: #737373; font-size: 12px; padding-left: 28px; }
+.new_house_manager .manager_list .list_title dt{ padding-left: 22px; background-image: url(../images/state_icon.png); background-repeat: no-repeat; background-position: 2px center; }
+.new_house_manager .manager_list .list_title dd{ margin-right: 25px; }
+.new_house_manager .manager_list .list_title dd span{ color: #F00; }
+.new_house_manager .manager_list .list_title dd.curr{ color: #F00; }
+.new_house_manager .manager_list .list_title dd.add_house{ background-color: #FC7A18; color: #FFF; width: 100px; height: 32px; line-height: 32px; text-align: center; font-size: 13px; margin-top: 10px; }
+.new_house_manager .manager_list dl.list_content{ text-align: center; line-height: 52px; }
+.new_house_manager .manager_list dl.list_content.odd{ background-color: #F6F4F5; }
+.new_house_manager .manager_list dl.list_content.even{ background-color: #FFF; }
+.new_house_manager .manager_list dl.list_content dt{ border-bottom: 1px solid #D7D7D7;font-size: 13px; color: #646464; }
+.new_house_manager .manager_list dl.list_content dd{ color: #505050;font-size:13px;}
+.new_house_manager .manager_list .list_content .house_name{ width: 168px; }
+.new_house_manager .manager_list .list_content .house_address{ width: 250px; }
+.new_house_manager .manager_list .list_content .house_price{ width: 172px; }
+.new_house_manager .manager_list .list_content .house_state{ width: 146px; }
+.new_house_manager .manager_list .list_content .house_operate{ width: 242px; }
+.new_house_manager .manager_list .list_content .house_operate li{ width: 58px; text-align: center;}
+.new_house_manager .manager_list .list_content .house_operate li.referee{ line-height: 26px; background-color: #fc7a18; color: #FFF; margin-top: 13px;border-radius: 2px;}
+.new_house_manager .manager_list .list_content.even .house_operate li.referee{ background-color: #dbdcdd;}
+.new_house_manager .manager_list .list_bottom{ border-top:1px solid #DFDFE0; line-height: 52px; color: #737373; font-size: 13px; background-color: #f6f4f5; padding-left: 38px;}
+.new_house_manager .manager_list .list_bottom input{ width: 13px; height: 13px;}
+.new_house_manager .manager_list .list_bottom li{ width: 48px; line-height: 24px; text-align: center; font-size: 13px; margin-top: 12px; margin-bottom: 12px; margin-right: 15px;}
+.new_house_manager .manager_list .list_bottom .del{ width: 48px; line-height: 24px; text-align: center; color: #FFF; background-color: #ed1c24;font-size: 13px;border-radius: 2px; margin-top: 12px; margin-right: 15px;}
+.new_house_manager .manager_list .list_bottom .refresh{width: 48px; line-height: 24px; text-align: center; color: #FFF; background-color: #fc7a18;font-size: 13px;border-radius: 2px; margin-top: 12px; margin-right: 15px;}
+/*checkbox*/
+.hidden-input { opacity: 0; position: absolute; z-index: -1; }
+input[type=checkbox]+span { display: inline-block; height: 1em; width: 1em; border-radius: 4px; border: 1px solid #ababad; }
+input[type=checkbox]:checked+span { background-color: red; }
+/*popbox*/
+.pop_box{ position: fixed; width: 100%; height: 100%; left: 0; top: 0; background-color: rgba(0,0,0,.8); z-index: 100;}
+.pop_content{ position: fixed;top:50%; left: 50%; width: 738px; height: 781px; margin-left: -369px; margin-top: -390px; background-color: #FFF; padding: 42px 90px;}
+.pop_content .pop_button_add{ color: #FFF; text-align: center; width: 116px; line-height: 32px; border: 1px solid #c1611b; background-color: #fc7a18; margin: 10px auto;border-radius: 2px; font-size: 13px;}
+.pop_content .pop_title .fa-plus{ border: 1px solid #FC7A18; color: #FC7A18;border-radius: 50%; width: 18px; height: 18px; text-align: center; margin-right: 2px;}
+.pop_close{ position: absolute;right:0;top:0;}
+.pop_close i{font-size: 16px; width: 20px; height: 20px; line-height: 16px; text-align: center;border-radius: 50%; border: 2px solid #000;}
+.pop_title .search{ width:178px; height:24px;font-size:10px; float:left; margin-left:16px; padding-left:24px; border: 1px solid #fecba5;}
+.pop_title .submit{ width:64px; line-height:24px; background-color:#FC7A18; color:#FFF;text-align:center; font-size:10px; float:left; border: none;}
+.pop_title .search-block{ position:relative;}
+.pop_title .fa-search{ position:absolute;left:25px;top:5px;font-size:10px; color:#FC7A18;}
+.pop_list{ border: 1px solid #dbdcdd; padding: 0 26px; margin-top: 10px;}
+.pop_list dl{ border-bottom:1px solid #bec0c2; padding-bottom: 14px; margin-top: 20px;}
+.pop_list dt{ margin-right: 25px;}
+.pop_list dd{ width: 400px;}
+.pop_list li{ height: 40px;}
+.pop_list .pop_price{font-size: 13px; margin-top: 17px;}
+.pop_list .num{ color: #ea2626;}
+.pop_list .check{font-size: 13px; margin-top: 17px;}
+.pop_list .pop_brief{ width: 230px;font-size: 12px; margin-top: 12px;}
+.pop_list .build_name{ color: #000;}
+.pop_list .build_location{ color: #858585;}
+.pop_list .checked{ color: #ff0000; border: 1px solid #c1c1c3; width: 15px; height: 15px; text-align: center; line-height:15px;border-radius: 50%;font-size: 14px;}
+.pop_list .collect_pagination{ margin: 10px auto; float: none; width: 300px;}

@@ -1,0 +1,211 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<title></title>
+<link rel="stylesheet" href="css/reset.css">
+<link rel="stylesheet" type="text/css" href="css/swiper-3.4.0.min.css"/>
+<link rel="stylesheet" href="css/jquery.fullPage.css">
+<link rel="stylesheet" href="css/fullpage_animate.css">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" type="text/css" href="css/newslist.css"/>
+<script src="js/jquery.js"></script>
+<script src="js/jquery-ui.min.js "></script>
+<script src="js/jquery.fullPage.min.js"></script>
+<script type="text/javascript" src="js/swiper-3.4.0.min.js"></script>
+<style> 
+	.mail img{margin-top:0;}
+	.mail .header_right a{color: #e1e1e1;font-size: 16px;margin-top: 20px; display: inline-block;margin-left: 13px}  
+	.mail .map{margin-left: 100px;margin-top: 15px;width:100px;display: inline-block;float:left;}
+	.mail .map span{color:#fff;font-size: 16px;margin-left: 10px;}
+	.mail .header_right{line-height: 0;} 
+	.top-search{width: 786px;}
+	.top-search span{color: #fefefe;font-size: 22px;display: inline-block;width: auto;height: 40px;padding: 0px 5px;line-height: 40px;cursor: pointer;margin-right: 30px}
+	.top-search span.active{color: #fc7a18;background: #3d3d3d}
+	.top-search img{display: block;margin-left: 15px}
+	.top-search .serach{background: white url(images/top-search.png) no-repeat 25px center;text-indent: 80px;width: 660px;height: 60px;border: none;padding: 5px;box-sizing: border-box;font-size: 21px}
+	.top-search input[type=submit]{width: 120px;height: 60px;background: #fc7a18;font-size: 24px;color: white;border: none;}
+	.top-search img{vertical-align: middle;margin-right: 5px;position: relative;top:1px}
+	.san01.two{margin-left: 110px}
+
+	.show-desc{width: 1150px;height:310px;margin: 100px auto;margin-bottom: 0px}
+	.show-desc li.active{border:2px solid #fc7a18}
+	.show-desc li.active a{border-color:#fc7a18;}
+	.show-desc li{position: relative;border: 2px solid transparent;width: 230px;height: 310px;box-sizing: border-box;padding:20px 44px 0 44px;}
+	.show-desc li a{box-sizing: border-box;width:136px;height: 136px;display: table-cell;vertical-align: middle;text-align: center;border-radius: 50%;border: 2px solid #666;margin:0 53px}
+	.show-desc li a:hover{border: 2px solid fc7a18}
+	.show-desc li>span{display: block;text-align: center;margin-top: 15px;font-size: 21px;color: #666}
+	.show-con{display: none;background:#fc7a18;font-size: 13px;color: #ffffff;position: absolute;width: 100%;height: auto;bottom: 0px;
+		left: 0px;padding:10px 0;}
+	.show-con p{text-align: center;line-height: 24px;}
+	.show-lun{width: 100%;margin-top: 80px;position: absolute; left:0;bottom: 0;}
+	.swiper-slide img{width:100%;}
+	#new_footer{position:absolute;bottom:0;}
+	
+</style>
+<script>
+$(function(){
+	if($.browser.msie && $.browser.version < 10){
+		$('body').addClass('ltie10');
+	}
+	$.fn.fullpage({
+		verticalCentered: false,
+		anchors: ['page1', 'page2', 'page3'],
+		navigation: true,
+		navigationTooltips: ['首页', '视觉', '交互']
+	});
+});
+</script>
+</head>
+<body>
+<div class="section section1">
+	<div class="bg"><img src="images/section.jpg" alt=""></div>
+	<div class="mail header_container">
+         <img class="logo" src="images/newhome.png">
+         <div class="map">
+     		<img src="images/adress.png"><span>东莞</span>
+         </div>       
+         <div class="header_right"><a href="#">登录</a><a href="#">注册</a></div>
+	</div>
+	<div class="hgroup"></div>
+	<div class="top-search bg13">
+		<p><span class="active">新房</span><span>二手房</span></p>
+		<img class="san01" src="images/sanjiao.png">
+		<img class="san01 two" src="images/sanjiao.png" style="display: none;">
+		<input class="serach" type="text" placeholder="请输入楼盘名和小区名">
+		<input class="serach" type="text" placeholder="请输入二手房小区名" style="display: none">
+		<input type="submit" value="搜  索">
+	</div>
+</div>
+
+<div class="section section2">
+	<div class="bg"><img src="images/section2.jpg" alt=""></div>
+	<div class="show-desc">
+		<ul>
+		  <li class="active"><a href="javascript:;"><img src="images/show-11.png"></a><span>平台超</span><div class="show-con"><p>自营房源,真房源,真价格</p><p>线上线下同步</p></div> </li>
+		  <li><a href="javascript:;"><img src="images/show-02.png"></a><span>公共超</span><div class="show-con"><p>自营房源,真房源,真价格</p><p>线上线下同步</p></div> </li>
+		  <li><a href="javascript:;"><img src="images/show-03.png"></a><span>财富超</span><div class="show-con"><p>自营房源,真房源,真价格</p><p>线上线下同步</p></div> </li>
+		  <li><a href="javascript:;"><img src="images/show-04.png"></a><span>新闻岛</span><div class="show-con"><p>自营房源,真房源,真价格</p><p>线上线下同步</p></div> </li>
+		  <li><a href="javascript:;"><img src="images/show-05.png"></a><span>数据岛</span><div class="show-con"><p>自营房源,真房源,真价格</p><p>线上线下同步</p></div> </li>
+		</ul>
+	</div>
+	<div class="show-lun">
+		<div class="swiper-container">
+			<div class="swiper-wrapper">
+				<div class="swiper-slide">
+					<a href="javascript:;"><img src="images/swiper.jpg" alt="" /></a>
+				</div>
+				<div class="swiper-slide">
+					<a href="javascript:;"><img src="images/swiper.jpg" alt="" /></a>
+				</div>
+				<div class="swiper-slide">
+					<a href="javascript:;"><img src="images/swiper.jpg" alt="" /></a>
+				</div>
+			</div>
+			<div class="swiper-pagination"></div>
+			<div class="swiper-button-prev swiper-button-white"></div>
+			<div class="swiper-button-next swiper-button-white"></div>
+		</div>
+	</div>
+</div>
+
+<div class="section section3">
+	<div class="show-img">
+	  <a href="#"><li><img src="images/sd.png"><p class="show-foot">碧桂圆指挥家<span class="price right">16500元/m²</span></p><div class="show-text">
+	      <p class="first">IBOX<span class="price right">16500元/m²</span></p>
+	      <p>区域：<span class="area">常平</span></p>
+	      <p>主推户型：<span class="huxing">2房2厅(51平)</span></p>
+	      <p>小户型\酒店式公寓</p>
+	  </div></li></a>
+	  <a href="#"><li><img src="images/sd.png"><p class="show-foot">碧桂圆指挥家<span class="price right">16500元/m²</span></p><div class="show-text">
+	      <p class="first">IBOX<span class="price right">16500元/m²</span></p>
+	      <p>区域：<span class="area">常平</span></p>
+	      <p>主推户型：<span class="huxing">2房2厅(51平)</span></p>
+	      <p>小户型\酒店式公寓</p>
+	  </div></li></a>
+	  <a href="#"><li><img src="images/sd.png"><p class="show-foot">碧桂圆指挥家<span class="price right">16500元/m²</span></p><div class="show-text">
+	      <p class="first">IBOX<span class="price right">16500元/m²</span></p>
+	      <p>区域：<span class="area">常平</span></p>
+	      <p>主推户型：<span class="huxing">2房2厅(51平)</span></p>
+	      <p>小户型\酒店式公寓</p>
+	  </div></li></a>
+	  <a href="#"><li><img src="images/sd.png"><p class="show-foot">碧桂圆指挥家<span class="price right">16500元/m²</span></p><div class="show-text">
+	      <p class="first">IBOX<span class="price right">16500元/m²</span></p>
+	      <p>区域：<span class="area">常平</span></p>
+	      <p>主推户型：<span class="huxing">2房2厅(51平)</span></p>
+	      <p>小户型\酒店式公寓</p>
+	  </div></li></a>
+	</div
+</div>
+
+  <div id="new_footer">
+      <div class="container">
+          <div class="footer_left fl">
+              <div class="footer_top">
+                  <img class='fl' src="images/newhome.png" alt="" />
+                  <div class="fl ml20">
+                      <p class="friendship_link">
+                          <a href="#">关于我们</a>
+                          <span>|</span>
+                          <a href="#">人才招聘</a>
+                          <span>|</span>
+                          <a href="#">联系我们</a>
+                          <span>|</span>
+                          <a href="#">用户协议</a>
+                          <span>|</span>
+                          <a href="#">友情链接</a>
+                          <span>|</span>
+                          <a href="#">网站地图</a>
+                      </p>
+                      <p class="phonenum">
+                          客服热线：<span>400-800-8820</span>（工作时间：9：00-21：00）
+                      </p>
+                  </div>
+              </div>
+              <p class="address">版权所有 ©深圳市城市屋超科技有限公司  copyright ©2016  apyfc.com   All Rights Rights  Reserved   备案号:粤ICP备16079781号</p>
+          </div>
+          <div class="footer_right">
+              <div class="tc fl">
+                  <img src="images/wxCode.png" alt="" />
+                  <p>关注优房超微信号</p>
+              </div>
+              <div class="tc ml30 fl">
+                  <img src="images/appCode.png" alt="" />
+                  <p>下载优房超APP</p>
+              </div>
+          </div>
+      </div>
+  </div>
+<script>
+	$(function(){
+		$(".top-search p span").on("click",function(){
+		   var index=$(this).index();
+		  $(this).parents(".top-search").children(".serach,.san01").hide();
+		   $(this).parents(".top-search").children(".serach").eq(index).show();
+		   $(this).parents(".top-search").children(".san01").eq(index).show();
+		   $(this).addClass("active").siblings().removeClass("active");
+		})
+
+		$(".show-desc a").on("mouseover",function(){
+		   $(this).parent().find(".show-con").show();
+		   $(this).parents("li").siblings().find(".show-con").hide();
+		   $(this).parent().addClass("active").siblings().removeClass("active")
+		})
+
+		$(".show-img li").hover(function () {
+		   $(this).find(".show-text").stop(true, false).slideToggle();
+		})
+
+
+		var swiper = new Swiper('.swiper-container', {
+		   autoplay: 3000,
+		   loop:true,
+		   prevButton:'.swiper-button-prev',
+		   nextButton:'.swiper-button-next',
+		   pagination: '.swiper-pagination',
+		});
+	})
+</script>
+</body>
+</html>

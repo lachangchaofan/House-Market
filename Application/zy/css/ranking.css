@@ -1,0 +1,56 @@
+/* CSS Document */
+#banner1{width:100%;height:457px;}
+#banner1 img{width:100%;height:457px;}
+#content{width:100%;height:452px;background:#eeeeee;margin:0 auto;}
+#content p{padding-top:49px; width: 1200px;font-size:20px;font-weight:bold; margin: 0 auto;}
+#content hr{margin:0 auto;margin-top:16px;}
+#content1{width:1200px;margin:0 auto;}
+#content1 p{padding-top:49px;font-size:20px;font-weight:bold;}
+#search{background-color:#fff; float: right;margin-top: 50px;}
+#search input{width: 385px;height: 35px;border: 1px solid #f7c49e;float: left}
+#search .search-btn{width: 70px;height: 35px;line-height: 35px;margin-left: -70px;background: #fc7a18;word-spacing: 2px;color:white;font-size: 13.5px;border: none}
+.search-img{background:url(../images/search.png) no-repeat 15px center;text-indent: 45px}
+#content1 hr{margin:0 auto;margin-top:16px;}
+#pic{width:1234px;margin:0 auto;transform: translateX(-12px);}
+#pic img{width:218px;margin-left:25px;height:236px;margin-top:34px; border: 1px solid #d9d9db;}
+.page_all{
+	height:50px;
+}
+.page{
+	margin-left: 380px;
+	margin-top:50px;
+}
+.page ul .shang li{
+	width: 75px;
+}
+.page ul li{
+	margin-left: 15px;
+	border:solid 1px lightgrey;
+	padding: 5px;
+	width:35px;
+	text-align: center;
+}
+.page ul .page1 li{
+	background-color:  #ff4546;
+}
+.page ul li a{
+	color:black;
+}
+.cf:after{ display:block; clear:both; height:0; content:""; }#slideplay{width:1200px;height:300px;position:relative;overflow:hidden; margin: 30px auto 0;}
+#slideplay ul{position:absolute;}
+#slideplay ul li{height:300px;position:relative;float:left;overflow:hidden;margin-right:5px;}
+#slideplay ul li div{position:absolute;}
+#slideplay ul li a{overflow-x: hidden; float: left; margin: 0 3px; }
+#slideplay ul li img{width:230px;margin-right:3px;}
+#slideplay ul li dl{ width: 230px; height: 100px; background-color: #FFF; padding: 25px 10px; margin-right: 0;}
+#slideplay ul li dt{font-size: 18px; color: #353535;}
+#slideplay ul li dd{ margin-top: 12px; color: #5e5c5c;font-size: 14px;}
+#slideplay ul li .fr{font-size: 14px;}
+#slideplay ul li .num{ color: #f26700;font-size: 16px;}
+#slideplay .btnBg{width:1200px;height:0px;position:absolute;left:0;bottom:0;background:#000;}
+#slideplay .btn{height:10px;position:absolute;right:565px;bottom:0;text-align:right;}
+#slideplay .btn span{width:25px;height:10px;margin-left:5px;background:red;display:inline-block;cursor:pointer;_display:inline;_zoom:1;_font-size:0;}
+#slideplay .btn span.on{background:#fff;}
+/*#slideplay .preNext{width:45px;height:100px;position:absolute;top:120px;background:url(images/sprite.png) no-repeat 0 0;cursor:pointer;display:block;}
+#slideplay .pre{left:0;}
+#slideplay .next{right:0;background-position:right top;}*/
